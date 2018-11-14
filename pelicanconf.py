@@ -31,7 +31,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-THEME = './themes/pelican-themes/brownstone'
+THEME = './themes/pelican-themes/bootstrap'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
