@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+THEME = './themes/pelican-themes/blueidea'
+
 AUTHOR = 'tkyt'
 SITENAME = 'Test pelican'
 SITEURL = ''
@@ -30,8 +32,6 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-
-THEME = './themes/pelican-themes/bootstrap'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
