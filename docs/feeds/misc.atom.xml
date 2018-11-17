@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Test pelican - misc</title><link href="https://tkyt.github.io/testtesttest/" rel="alternate"></link><link href="https://tkyt.github.io/testtesttest/feeds/misc.atom.xml" rel="self"></link><id>https://tkyt.github.io/testtesttest/</id><updated>2018-11-11T11:11:11+09:00</updated><entry><title>"hoge"</title><link href="https://tkyt.github.io/testtesttest/hoge.html" rel="alternate"></link><published>2018-11-11T11:11:11+09:00</published><updated>2018-11-11T11:11:11+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-11:/testtesttest/hoge.html</id><summary type="html">&lt;h1&gt;hoge&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Test pelican - misc</title><link href="https://tkyt.github.io/testtesttest/" rel="alternate"></link><link href="https://tkyt.github.io/testtesttest/feeds/misc.atom.xml" rel="self"></link><id>https://tkyt.github.io/testtesttest/</id><updated>2018-11-11T11:11:11+09:00</updated><entry><title>hoge</title><link href="https://tkyt.github.io/testtesttest/hoge.html" rel="alternate"></link><published>2018-11-11T11:11:11+09:00</published><updated>2018-11-11T11:11:11+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-11:/testtesttest/hoge.html</id><summary type="html">&lt;h1&gt;hoge&lt;/h1&gt;
 &lt;p&gt;hogehoge&lt;/p&gt;
 &lt;h2&gt;hoge&lt;/h2&gt;
 &lt;p&gt;これはテストです。
@@ -27,9 +27,68 @@
 これはテストです。
 これはテストです。
 これはテストです。&lt;/p&gt;
-&lt;h1&gt;picture&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;![./images/20181116_085512.png](./images/20181116_085512.png)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src='./images/20181116_085512.png' width='600'&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;hoge&lt;/h1&gt;
+&lt;h2&gt;TeX&lt;/h2&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(A = B \times C\)&lt;/span&gt;&lt;/p&gt;
+&lt;div class="math"&gt;$$E = m c^2$$&lt;/div&gt;
+&lt;div class="math"&gt;\begin{align*}
+    A = \frac{1}{f}
+\end{align*}&lt;/div&gt;
+&lt;p&gt;[A = B \times C]&lt;/p&gt;
+&lt;h1&gt;picture …&lt;/h1&gt;&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary><content type="html">&lt;h1&gt;hoge&lt;/h1&gt;
 &lt;p&gt;hogehoge&lt;/p&gt;
 &lt;h2&gt;hoge&lt;/h2&gt;
 &lt;p&gt;これはテストです。
@@ -57,6 +116,68 @@
 これはテストです。
 これはテストです。
 これはテストです。&lt;/p&gt;
+&lt;h2&gt;TeX&lt;/h2&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(A = B \times C\)&lt;/span&gt;&lt;/p&gt;
+&lt;div class="math"&gt;$$E = m c^2$$&lt;/div&gt;
+&lt;div class="math"&gt;\begin{align*}
+    A = \frac{1}{f}
+\end{align*}&lt;/div&gt;
+&lt;p&gt;[A = B \times C]&lt;/p&gt;
 &lt;h1&gt;picture&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;![./images/20181116_085512.png](./images/20181116_085512.png)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src='./images/20181116_085512.png' width='600'&gt;&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;&lt;img alt="./images/20181116_085512.png" src="./images/20181116_085512.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src='./images/20181116_085512.png' width='600'&gt;&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content></entry></feed>

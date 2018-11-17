@@ -1,5 +1,5 @@
 ---
-title: "hoge"
+title: hoge
 date: 2018-11-11T11:11:11+09:00
 ---
 
@@ -35,9 +35,21 @@ hogehoge
 これはテストです。
 これはテストです。
 
+## TeX
+
+$A = B \times C$
+
+$$E = m c^2$$
+
+\begin{align*}
+    A = \frac{1}{f}
+\end{align*}
+
+\[A = B \times C\]
+
 # picture
 
-`![./images/20181116_085512.png](./images/20181116_085512.png)`
+![./images/20181116_085512.png](./images/20181116_085512.png)
 
 <img src='./images/20181116_085512.png' width='600'>
 

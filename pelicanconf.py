@@ -2,7 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-THEME = './themes/pelican-themes/iris'
+# THEME = './themes/zurb-F5-basic'
+THEME = './themes/medius'
+# THEME = './themes/aboutwilson'
+# THEME = './themes/elegant'
+# THEME = './themes/svbtle'
+# THEME = './themes/SoMA'
+
+PLUGIN_PATHS = ['./plugins']
+PLUGINS = ['render_math']
 
 AUTHOR = 'tkyt'
 SITENAME = 'Test pelican'
