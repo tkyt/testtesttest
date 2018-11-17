@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-THEME = './themes/pelican-themes/blueidea'
+THEME = './themes/pelican-themes/iris'
 
 AUTHOR = 'tkyt'
 SITENAME = 'Test pelican'

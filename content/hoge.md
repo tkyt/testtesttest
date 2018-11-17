@@ -37,5 +37,7 @@ hogehoge
 
 # picture
 
-![./20181116_085512.png](./20181116_085512.png)
+`![./images/20181116_085512.png](./images/20181116_085512.png)`
+
+<img src='./images/20181116_085512.png' width='600'>
 

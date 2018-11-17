@@ -1,53 +1,89 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-        <meta charset="utf-8" />
         <title>Test pelican - Authors</title>
-        <link rel="stylesheet" href="https://tkyt.github.io/testtesttest/theme/css/main.css" />
-        <link href="https://tkyt.github.io/testtesttest/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Test pelican Atom Feed" />
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css'>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://tkyt.github.io/testtesttest/theme/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="https://tkyt.github.io/testtesttest/theme/css/pygments.css" type="text/css" />
+        <link rel="stylesheet" href="https://tkyt.github.io/testtesttest/theme/css/font-awesome.css" type="text/css" />
+        <meta charset="utf-8" />
+      
 
-        <!--[if IE]>
-            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <!-- Javascript-->
+        <script async src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+        <script async type="text/javascript"> 
+        $(function() {
+            function invisibleMenu() {
+                var now = 0;
+                var pixels = 300;
+                var opacity = -1;
+
+                var move = function() {
+                    now = $(window).scrollTop();
+                    if (now > pixels && opacity !== 0)
+                        opacity = 0;
+                    else if (now < pixels){
+                        // Depends on the position not if scrolls down or up
+                        opacity = (1 - now/pixels);
+                    }
+                    $("div.navigation").css({"opacity": opacity});
+                }
+                $(window).scroll(move);
+                move();
+            }
+            invisibleMenu();
+          });
+          </script> 
 </head>
 
 <body id="index" class="home">
+     <div class="navigation">
+        <ol class="nav">
+          <li class="current"><a href="https://tkyt.github.io/testtesttest">Blog</a> </li>
+          <li><a href="https://tkyt.github.io/testtesttest/archives.html">Archive</a></li>
+          <li><a href="https://tkyt.github.io/testtesttest/tags.html">Tags</a> </li>
+          <li><a href="https://tkyt.github.io/testtesttest/">RSS</a> </li>
+        </ol>
+      </div>
         <header id="banner" class="body">
-                <h1><a href="https://tkyt.github.io/testtesttest/">Test pelican </a></h1>
-                <nav><ul>
-                    <li><a href="https://tkyt.github.io/testtesttest/category/misc.html">misc</a></li>
-                </ul>
-                </nav>
+                <div class="banner"><a href="https://tkyt.github.io/testtesttest">Test pelican <strong></strong></a></div>
         </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+        <div class="box">
+    <h1>Authors on Test pelican</h1>
 
-<section id="content" class="body">
-    <h1>Authors on Test pelican</h1>        <li><a href="https://tkyt.github.io/testtesttest/author/tkyt.html">tkyt</a> (1)</li>
-</section>
-
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
+    <ul>        <li><a href="https://tkyt.github.io/testtesttest/author/tkyt.html">tkyt</a> (1)</li>
+    </ul>
+            <hr/>
+            <footer id="contentinfo" class="footer">
+                <div>
+                    <a href="https://tkyt.github.io/testtesttest">tkyt</a> (2012)
+                </div>
+                <div>
+                    This work is licensed under <a rel="license" href="http://opensource.org/licenses/bsd-3-clause">3 clause BSD</a>. Source code available on <a rel="source code" href="https://github.com/slok/blog">Github</a>
+                </div>
+                <div>
+                    powered by <a href="http://getpelican.com/">Pelican</a>
+                    and <a href="http://python.org">Python</a>. 
+                    <a href="http://github.com/slok/iris">Theme</a> by <a href="http://xlarrakoetxea.org">Xabier Larrakoetxea</a> based on <a href="http://flask.pocoo.org/">Flask</a> theme
+                </div>
+                <div>
+                    Social icons (font awesome) by <a href="http://fortawesome.github.com/Font-Awesome/"> fort awesome</a>.
+                    <a href="http://www.google.com/webfonts/specimen/The+Girl+Next+Door">Title</a>, <a href="http://www.google.com/webfonts/specimen/Marcellus">headers</a> and <a href="http://www.google.com/webfonts/specimen/Inconsolata">source code</a> fonts by google fonts
+                </div>
                 <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="https://tkyt.github.io/testtesttest/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
-        </footer><!-- /#contentinfo -->
+                        <a href="#"><i class="icon-You can add links in your config file"></i>  </a>
+                        <a href="#"><i class="icon-Another social link"></i>  </a>
+                </div>
+            </footer><!-- /#contentinfo -->
+        </div>
+        <!--Add statistycs-->
 
 </body>
 </html>
