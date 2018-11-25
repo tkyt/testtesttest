@@ -13,8 +13,8 @@ PLUGIN_PATHS = ['./plugins']
 PLUGINS = ['render_math']
 
 AUTHOR = 'tkyt'
-SITENAME = 'Test pelican'
-SITEURL = ''
+SITENAME = 'Test pelican on GitHub pages'
+SITEURL = 'https://tkyt.github.io/testtesttest'
 
 PATH = 'content'
 
