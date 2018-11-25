@@ -27,7 +27,7 @@ SDHC対応機器はSDXCを認識不可。
 
 ## スピードクラス
 
-![](https://jp.toshiba-memory.com/howto/sd/images/datacapacity/img3.jpg)
+![a](https://jp.toshiba-memory.com/howto/sd/images/datacapacity/img3.jpg)
 
 # Samsung EVO PlusとEVO Selectの違い
 
