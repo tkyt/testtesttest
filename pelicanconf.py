@@ -13,7 +13,12 @@ PELICANDIR = os.path.join(
 THEME = os.path.join(
     PELICANDIR
     , 'pelican-themes'
-    , 'medius'
+    #, 'elegant'
+    #, 'Just-Read'
+    #, 'lightweight'
+    #, 'martin-pelican'
+    #, 'medius'
+    , 'minimalX'
 )
 # THEME = './themes/aboutwilson'
 # THEME = './themes/elegant'
@@ -30,13 +35,17 @@ PLUGINS = ['render_math']
 
 AUTHOR = 'tkyt'
 SITENAME = 'Test pelican on GitHub pages'
-SITEURL = 'https://tkyt.github.io/testtesttest'
+# SITEURL = 'https://tkyt.github.io/testtesttest'
+SITETITLE = 'Title'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Tokyo'
 
 DEFAULT_LANG = 'ja'
+
+DEFAULT_CATEGORY = 'misc'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
