@@ -1,15 +1,31 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-
+import os
+PELICANDIR = os.path.join(
+    os.environ['HOME']
+    , 'mnt'
+    , 'srv'
+    , 'data'
+    , 'pelican'
+)
 # THEME = './themes/zurb-F5-basic'
-THEME = './themes/medius'
+THEME = os.path.join(
+    PELICANDIR
+    , 'pelican-themes'
+    , 'medius'
+)
 # THEME = './themes/aboutwilson'
 # THEME = './themes/elegant'
 # THEME = './themes/svbtle'
 # THEME = './themes/SoMA'
 
-PLUGIN_PATHS = ['./plugins']
+PLUGIN_PATHS = [
+    os.path.join(
+        PELICANDIR
+        , 'pelican-plugins'
+    )
+]
 PLUGINS = ['render_math']
 
 AUTHOR = 'tkyt'
