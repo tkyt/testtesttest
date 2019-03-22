@@ -28,9 +28,10 @@ PLUGIN_PATHS = [
 PLUGINS = ['render_math']
 
 AUTHOR = 'tkyt'
-SITENAME = 'Today I Learned'
+SITENAME = 'Baby learnings'
+SITETAGLINE = 'to stand on the shoulders of Giants'
 SITEURL = 'http://localhost:8000'
-SITEURL = 'https://tkyt.github.io/testtesttest'
+SITEURL = 'https://tkyt.github.io/til'
 
 PATH = 'content'
 
@@ -57,8 +58,7 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
-SITETAGLINE = 'Hodiaŭ mi lernis'
-FOOTERTEXT = 'Persona kono bazo, '
+FOOTERTEXT = 'Persona kono bazo kaj Hodiaŭ mi lernis, '
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
