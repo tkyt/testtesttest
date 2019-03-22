@@ -47,12 +47,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Google', 'http://google.com/'),
-         ('Apple', 'http://apple.com/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'))
+# LINKS = (('Google Japan', 'http://google.co.jp/'),
+#          ('Apple Japan', 'http://apple.com/jp'),
+#          ('Amazon Japan', 'http://amazon.co.jp/'))
 
 # Social widget
-SOCIAL = (('Twitter', '#'), ('Twitter', '$#'))
+# SOCIAL = (('Twitter', '#'),)
 
 DEFAULT_PAGINATION = 10
 
