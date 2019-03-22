@@ -56,8 +56,8 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
-SITETAGLINE = 'hogehoge'
-FOOTERTEXT = 'Today I Learned'
+SITETAGLINE = 'Today I Learned'
+FOOTERTEXT = 'Personal knowledge base, '
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
