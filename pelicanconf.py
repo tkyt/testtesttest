@@ -9,22 +9,15 @@ PELICANDIR = os.path.join(
     , 'data'
     , 'pelican'
 )
-# THEME = './themes/zurb-F5-basic'
 THEME = os.path.join(
     PELICANDIR
     , 'pelican-themes'
-    #, 'elegant'
+    #, 'clean-blog'
+    , 'cebong'
     #, 'Just-Read'
-    #, 'lightweight'
-    #, 'martin-pelican'
-    #, 'medius'
-    , 'minimalX'
+    #, 'nikhil-theme'
+    #, 'pelican-hss'
 )
-# THEME = './themes/aboutwilson'
-# THEME = './themes/elegant'
-# THEME = './themes/svbtle'
-# THEME = './themes/SoMA'
-
 PLUGIN_PATHS = [
     os.path.join(
         PELICANDIR
@@ -36,7 +29,6 @@ PLUGINS = ['render_math']
 AUTHOR = 'tkyt'
 SITENAME = 'Test pelican on GitHub pages'
 # SITEURL = 'https://tkyt.github.io/testtesttest'
-SITETITLE = 'Title'
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
