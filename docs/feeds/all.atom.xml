@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Today I Learned</title><link href="https://tkyt.github.io/testtesttest/" rel="alternate"></link><link href="https://tkyt.github.io/testtesttest/feeds/all.atom.xml" rel="self"></link><id>https://tkyt.github.io/testtesttest/</id><updated>2019-03-23T00:33:57+09:00</updated><entry><title>エスペラントとLinux</title><link href="https://tkyt.github.io/testtesttest/esuperantotolinux.html" rel="alternate"></link><published>2019-03-23T00:33:57+09:00</published><updated>2019-03-23T00:33:57+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/testtesttest/esuperantotolinux.html</id><summary type="html">&lt;p&gt;エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
-世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。&lt;/p&gt;</summary><content type="html">&lt;p&gt;エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
-世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。&lt;/p&gt;</content><category term="esperanto"></category><category term="linux"></category></entry><entry><title>SDカードの規格</title><link href="https://tkyt.github.io/testtesttest/sdkadonogui-ge.html" rel="alternate"></link><published>2018-11-25T18:59:45+09:00</published><updated>2018-11-25T18:59:45+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-25:/testtesttest/sdkadonogui-ge.html</id><summary type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Today I Learned</title><link href="https://tkyt.github.io/testtesttest/" rel="alternate"></link><link href="https://tkyt.github.io/testtesttest/feeds/all.atom.xml" rel="self"></link><id>https://tkyt.github.io/testtesttest/</id><updated>2019-03-23T00:33:57+09:00</updated><entry><title>エスペラントとLinux</title><link href="https://tkyt.github.io/testtesttest/esuperantotolinux.html" rel="alternate"></link><published>2019-03-23T00:33:57+09:00</published><updated>2019-03-23T00:33:57+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/testtesttest/esuperantotolinux.html</id><summary type="html">&lt;p&gt;エスペラントとLinuxの共通点について。&lt;/p&gt;
+&lt;h1&gt;エスペラントとは&lt;/h1&gt;
+&lt;p&gt;エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
+世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。&lt;/p&gt;
+&lt;h1&gt;エスペラントと英語&lt;/h1&gt;
+&lt;h1&gt;Linux&lt;/h1&gt;
+&lt;h1&gt;LinuxとWindows&lt;/h1&gt;</summary><content type="html">&lt;p&gt;エスペラントとLinuxの共通点について。&lt;/p&gt;
+&lt;h1&gt;エスペラントとは&lt;/h1&gt;
+&lt;p&gt;エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
+世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。&lt;/p&gt;
+&lt;h1&gt;エスペラントと英語&lt;/h1&gt;
+&lt;h1&gt;Linux&lt;/h1&gt;
+&lt;h1&gt;LinuxとWindows&lt;/h1&gt;</content><category term="esperanto"></category><category term="linux"></category></entry><entry><title>SDカードの規格</title><link href="https://tkyt.github.io/testtesttest/sdkadonogui-ge.html" rel="alternate"></link><published>2018-11-25T18:59:45+09:00</published><updated>2018-11-25T18:59:45+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-25:/testtesttest/sdkadonogui-ge.html</id><summary type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
 &lt;p&gt;いっぱいあってどれが何なのかわからん。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm"&gt;https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;サイズ&lt;/h2&gt;
