@@ -27,7 +27,7 @@ PLUGIN_PATHS = [
 PLUGINS = ['render_math']
 
 AUTHOR = 'tkyt'
-SITENAME = 'Test pelican on GitHub pages'
+SITENAME = 'Today I Learned'
 SITEURL = 'http://localhost:8000'
 SITEURL = 'https://tkyt.github.io/testtesttest'
 
@@ -56,7 +56,7 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
-SITETAGLINE = 'Today I Learned'
+SITETAGLINE = 'Hodiaŭ mi lernis'
 FOOTERTEXT = 'Personal knowledge base, '
 
 # Uncomment following line if you want document-relative URLs when developing
