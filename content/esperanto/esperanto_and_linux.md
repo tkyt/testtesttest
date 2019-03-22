@@ -13,13 +13,14 @@ tags: esperanto, linux
 
 # エスペラントと英語
 
-
+英語は国際交流におけるデファクトスタンダードと化している。
 
 # Linux
 
-
+ご存知のとおり。
 
 # LinuxとWindows
 
+WindowsはPCのOSのデファクトスタンダードと化している。
 
 
