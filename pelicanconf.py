@@ -36,18 +36,18 @@ SITESUBTITLE = 'to stand on the shoulders of Giants'
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
-ARTICLE_URL = os.path.join(
-    '{date:%Y}'
-    , '{date:%m}'
-    , '{date:%d}'
-    , '{slug}'
-)
-ARTICLE_SAVE_AS = os.path.join(
-    '{date:%Y}'
-    , '{date:%m}'
-    , '{date:%d}'
-    , '{slug}.html'
-)
+#ARTICLE_URL = os.path.join(
+#    '{date:%Y}'
+#    , '{date:%m}'
+#    , '{date:%d}'
+#    , '{slug}'
+#)
+#ARTICLE_SAVE_AS = os.path.join(
+#    '{date:%Y}'
+#    , '{date:%m}'
+#    , '{date:%d}'
+#    , '{slug}.html'
+#)
 OUTPUT_PATH = 'docs/'
 YEAR_ARCHIVE_SAVE_AS = os.path.join(
     '{date:%Y}'
