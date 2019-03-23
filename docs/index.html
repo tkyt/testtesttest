@@ -1,37 +1,44 @@
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <title>Baby learnings</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-            <meta name="author" content="tkyt" />
-            <meta name="copyright" content="tkyt" />
-        <meta name="robots" content="noindex,follow">
-    
-        <link rel="stylesheet" href="https://tkyt.github.io/til/theme/css/main.css" type="text/css" />
-    </head>
-    
-    <body id="index" class="home">
-            <header id="banner" class="body">
-                <h1><a href="https://tkyt.github.io/til">Baby learnings </a></h1>
-                    <div id="tagline">to stand on the shoulders of Giants</div>
-                <nav>
-                        <a href="https://tkyt.github.io/til/category/esperanto.html">esperanto</a>&nbsp;
-                        <a href="https://tkyt.github.io/til/category/misc.html">misc</a>&nbsp;
-                        <a href="https://tkyt.github.io/til/category/pc.html">pc</a>&nbsp;
-                </nav>
-            </header><!-- /#banner -->
-        
-        
+<!doctype html>
+<html lang="">	
+<head>
+	<meta charset="utf-8"/>
+	<title>Baby learnings</title>	
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://tkyt.github.io/til/today-i-learned.html">Today I learned</a></h1> 
-<footer class="post-info">
-        <abbr class="published" title="2019-03-23T12:31:19+09:00">
-                土 23 3月 2019
-        </abbr>
-</footer><!-- /.post-info --><p>いわゆる<em>Today I learned</em>というのを始めた。
+	<meta name="author" content="tkyt" />
+	<meta name="copyright" content="tkyt" />
+	<meta property="og:site_name" content="Baby learnings" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Baby learnings" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="ja" />
+	<meta property="og:title" content="Baby learnings" />
+	<meta property="og:url" content="https://tkyt.github.io/til/index.html" />
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0" />
+	<link rel="shortcut icon" href="https://tkyt.github.io/til/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="https://tkyt.github.io/til/favicon.ico" type="image/x-icon" />
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:700,400|Droid+Sans+Mono' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="https://tkyt.github.io/til/theme/css/main.css" type="text/css" />
+		
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+</head>
+	
+<body>		
+	<header class="clearfix" role="banner">
+		<div class="wrapper">
+			<h1 class="huge"><a href="https://tkyt.github.io/til">Baby learnings</a></h1>
+		</div>
+	</header>
+	
+<div role="main" class="content clearfix">
+
+	<article class="wrapper main">
+		<h1><a href="https://tkyt.github.io/til/today-i-learned.html">Today I learned</a></h1>
+		<p>いわゆる<em>Today I learned</em>というのを始めた。
 始めた経緯や運用開始までの工程をまとめる。</p>
 <h2>きっかけ</h2>
 <h3>自分の日頃の学習の促進</h3>
@@ -54,257 +61,40 @@ GitHubではmarkdownを整形して表示する機能があるので、それで
 ただ、せっかく自分の学習の促進を目的にしているのだから、環境作りすら学習の一環にしてしまおうと思った。
 もちろんこういうところの敷居が高いと人によっては面倒に思うかもしれないし、維持が大変だと自分も嫌になると思う。
 その辺はしばらくやってみて、その後考えることにする。</p>
-<p>こういう形からというか、周辺からきちっと埋めていくところは、すごく自分らしいと感じる。</p>
-<h3>記事</h3>
-<p>markdownで書く。
-以前からメモのフォーマットとしてどれがいいかいろいろ試しており、AsciiDocを使っていたこともあったが、結局markdownに戻ってきた。
-その辺の経験もいつかまとめて公開したい。</p>
-<h3>サイトジェネレータ</h3>
-<p>markdownをHTMLに変換するstatic site generatorを選ぶ。
-ローカルのメモ書きの変換には
-<a href="https://www.mkdocs.org/">Mkdocs</a>
-を使用している。
-それと同じでは芸がないのと、そもそもあれはもっとカチッとしたドキュメント類をまとめるためのツール(ドキュメンテーション?)であり、散発的な情報を置くサイトを作るのに向いていない。
-そのあたりの違いはツールの違いなのか、それともテーマの違いなのか。
-後で調べてみよう。
-また自分の知識の曖昧さを見つけてしまった。</p>
-<p>熟考の末、
-<a href="https://docs.getpelican.com">Pelican</a>
-を使うことにした。
-pythonを使ったstatic site generatorで一番人気だったから。
-全然熟考してない。
-ちなみにMkdocsは2位で、この2つがpythonの2大static site generatorのようである。(2019.03.23現在)</p>
-<p><a href="https://www.staticgen.com/"><img alt="static site generator filterd by python" src="./images/ssg_python.png"></a></p>
-<p>いつか勉強という名目で、他言語で書かれたサイトジェネレータを使ってみてもいいかもしれない。</p>
-<h3>テーマ</h3>
-<p>まあ、後からいくらでも変えられるんだけど、最初にびしっと決めておくといいかな、と。
-<a href="http://www.pelicanthemes.com">ここ</a>
-でテーマのスクリーンショットを一望できる。</p>
-<p>ミニマリズム志向なので、あまりごちゃごちゃしているのは好きじゃない。
-また、リアルの自分と結びつけるつもりはないので、デフォルトで大量のSNSのボタンがあったり、自分の写真を乗っける前提のテーマを除外。
-単に使わなければいいといえばそのとおりなんだけど、選択肢が多すぎるので、こうやって理由をつけてラフに落としていくしかない。
-日本の大企業の新卒採用もこうしてフィルタリングしているんだろうか...。</p>
-<p>いろいろ迷ったが、
-<a href="https://github.com/getpelican/pelican-themes/tree/master/cebong">cebong</a>
-にした。
-ただしそのままではなく、一部を書き換えて使う。</p>
-<h3>タイトル</h3>
-<p>悩ましい。
-自分が気に入る名前がいいが、あまり命名センスに自信がないので、あまり凝った名前にはしないほうがいいだろう。
-このTILの目的を表す名前にしたい。</p>
-<p>一番の目的は、日々の小さな学習の積み重ねを促すこと。
-そう考えたときに真っ先に思いつくのは、<strong>Baby steps to Giant strides</strong>。
-マガジンのテニス漫画のベイビーステップのサブタイトルだか英語版のタイトル。
-この漫画は自分のお気に入りの一つ。
-これの魅力をまとめた記事もいずれ書きたい。</p>
-<p>で、さらに巨人といえば、<strong>Standing on the shoulder of Giants</strong>。
-ニュートンが自分の知見について表した言葉として有名。
-引用元はもっと昔の哲学者らしい。
-こうやって適切に引用できるくらい、今までの知見を深く理解することで初めて新しい発見ができるんだろう。</p>
-<p>この日々の学習も、巨人の肩に乗り続けて、いずれはニュートンのように(とまでは言わないが)、そういった素晴らしい知見を得るに至ることを最終目的にしている。
-ということでタイトルは、</p>
-<p><strong>Baby learnings -to stand on the shoulders of Giants-</strong></p>
-<p>にする。
-ちょっと恥ずかしいタイトルな気もするが、気に入ったからいいだろう。</p>
-<h3>公開場所</h3>
-<p>レンタルサーバを使うのが一般的なんだろうか。
-月額費用を払うほどの価値があるのか知らないが、そこまで維持費を払うつもりはない。
-自宅サーバもあるにはあるが、ただのローカル限定ファイルサーバであり、セキュリティを犠牲にして扱いやすくしている。</p>
-<p>GitHub pagesを使って公開することにする。
-やり方さえ知っていれば公開するのは簡単。
-しかもgitでバージョン管理できる。
-何の不満もない。
-それにサイトジェネレータを使うのがめんどくさくなっても、GitHubで一般的に行われている普通のTIL方式にすればいいだけ。</p>
-<h2>運用開始</h2>
-<p>3-4か月前にGitHub pagesを使ったブログサイトの試験的な運用をしていたので、導入はスムーズ。
-GitHub pagesについてもいつかまとめてもいいかもしれない。
-以前自分が調べたときは、いろいろ情報は出てきたものの、古い情報も多く、現在はもっと柔軟性のあるものになっていることが多かった。
-その辺を最新情報としてまとめてもいいけど、どうせこういうソフトウェアは日々進歩しているので、そういうことをまとめてもしょうがないかもしれない。</p>
-<h2>まとめ</h2>
-<p>ということで、ブログと言っていいのかわからないが、自分の知っていること、知ったことをまとめて公開するサイトをつくった。
-しばらくは今までローカルにまとめていただけのことを、他人が読めるレベルに校正してから、公開する作業をするだろう。
-それで終わらないように、新しいことも、積極的にこちらに置きたい。</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-        
+<p>こういう形からというか、周辺からきちっと埋めていくところは …</p> <a class="btn" href="https://tkyt.github.io/til/today-i-learned.html">read more →</a>
+	</article>
 
- 
-            <li><article class="hentry">    
-                <header>
-                    <h3><a href="https://tkyt.github.io/til/esuperantotolinux.html" rel="bookmark"
-                           title="Permalink to エスペラントとLinux">エスペラントとLinux</a></h3>
-                </header>
-                
-                <div class="entry-content">
-                <p>エスペラントとLinuxの共通点について。</p>
-<h1>エスペラントとは</h1>
-<p>エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
-世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。</p>
-<h1>エスペラントと英語</h1>
-<p>英語は国際交流におけるデファクトスタンダードと化している。</p>
-<h1>Linux</h1>
-<p>ご存知のとおり。</p>
-<h1>LinuxとWindows</h1>
-<p>WindowsはPCのOSのデファクトスタンダードと化している。</p>
-                <a class="readmore" href="https://tkyt.github.io/til/esuperantotolinux.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
+	<div class="wrapper main">		
+		<h3>More posts</h3>
+		<ol class="archive">
 
- 
-            <li><article class="hentry">    
-                <header>
-                    <h3><a href="https://tkyt.github.io/til/sdkadonogui-ge.html" rel="bookmark"
-                           title="Permalink to SDカードの規格">SDカードの規格</a></h3>
-                </header>
-                
-                <div class="entry-content">
-                <h1>SDカードの規格の違い</h1>
-<p>いっぱいあってどれが何なのかわからん。</p>
-<p><a href="https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm">https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm</a></p>
-<h2>サイズ</h2>
-<ul>
-<li>SD</li>
-<li>microSD</li>
-</ul>
-<h2>容量</h2>
-<ul>
-<li>SD: &lt;2 GB</li>
-<li>SDHC: 2-32 GB</li>
-<li>SDXC: 32-256 GB</li>
-</ul>
-<p>後方互換性があり、大容量SDカードに対応している機器であれば、
-より小容量のSDカードも認識可能。
-例えばSDXC対応機器であればSDやSDHCを認識可能だが、
-SDHC対応機器はSDXCを認識不可。</p>
-<h2>スピードクラス</h2>
-<p><img alt="a" src="https://jp.toshiba-memory.com/howto/sd/images/datacapacity/img3.jpg"></p>
-<h1>Samsung EVO PlusとEVO Selectの違い</h1>
-<p><a href="https://www.windowscentral.com/whats-difference-between-samsung-evo-select-and-evo-plus">https://www.windowscentral.com/whats-difference-between-samsung-evo-select-and-evo-plus</a></p>
-<p>ない。Amazon用のブランド名。
-同じプロセスで同じものを作って
-名前だけ変えてるだけ。
-こういうのって意味あんのかな。</p>
-                <a class="readmore" href="https://tkyt.github.io/til/sdkadonogui-ge.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
+			<li class="clearfix"><a href="https://tkyt.github.io/til/esuperantotolinux.html" rel="bookmark" title="Permalink to エスペラントとLinux"><time datetime="2019-03-23T00:33:57+09:00" pubdate>土 23 3月 2019</time> エスペラントとLinux</a></li>
 
- 
-            <li><article class="hentry">    
-                <header>
-                    <h3><a href="https://tkyt.github.io/til/hoge.html" rel="bookmark"
-                           title="Permalink to hoge">hoge</a></h3>
-                </header>
-                
-                <div class="entry-content">
-                <h1>hoge</h1>
-<p>hogehoge</p>
-<h2>hoge</h2>
-<p>これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。</p>
-<h2>TeX</h2>
-<p><span class="math">\(A = B \times C\)</span></p>
-<div class="math">$$E = m c^2$$</div>
-<div class="math">\begin{align*}
-    A = \frac{1}{f}
-\end{align*}</div>
-<p>[A = B \times C]</p>
-<h1>picture …</h1><script type='text/javascript'>if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
+			<li class="clearfix"><a href="https://tkyt.github.io/til/sdkadonogui-ge.html" rel="bookmark" title="Permalink to SDカードの規格"><time datetime="2018-11-25T18:59:45+09:00" pubdate>日 25 11月 2018</time> SDカードの規格</a></li>
 
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script>
-                <a class="readmore" href="https://tkyt.github.io/til/hoge.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-            </ol><!-- /#posts-list -->
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </section><!-- /#content -->
-            <section id="extras" class="body">
-            </section><!-- /#extras -->
-            <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                    Persona kono bazo kaj Hodiaŭ mi lernis
-                </address><!-- /#about -->
-            </footer><!-- /#contentinfo -->
-        
-    </body>
+			<li class="clearfix"><a href="https://tkyt.github.io/til/hoge.html" rel="bookmark" title="Permalink to hoge"><time datetime="2018-11-11T11:11:11+09:00" pubdate>日 11 11月 2018</time> hoge</a></li>
+		</ol>
+		
+		<p>More posts in the <a href="https://tkyt.github.io/til/archives.html">archive</a>.</p>
+	</div>
+</div>
+	
+		
+<footer class="clearfix">
+	<div class="wrapper pages">
+		<ul class="nav">
+			<li><a href="https://tkyt.github.io/til/archives.html">Archive</a></li>
+		</ul>
+	</div>
+	
+	<div class="copy wrapper">
+		<ul class="social">
+		</ul>
+	
+		<p role="contentinfo">		Persona kono bazo kaj Hodiaŭ mi lernis
+<br>
+		Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">Pelican</a>.</p>
+	</div>
+</footer>
+</body>
 </html>

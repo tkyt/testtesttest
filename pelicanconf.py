@@ -9,16 +9,16 @@ PELICANDIR = os.path.join(
     , 'data'
     , 'pelican'
 )
-# THEME = os.path.join(
-#     PELICANDIR
-#     , 'pelican-themes'
-#     #, 'clean-blog'
-#     , 'cebong'
-#     #, 'Just-Read'
-#     #, 'nikhil-theme'
-#     #, 'pelican-hss'
-# )
-THEME = 'themes/sepio'
+THEME = os.path.join(
+    PELICANDIR
+    , 'pelican-themes'
+    #, 'clean-blog'
+    #, 'cebong'
+    , 'Just-Read'
+    #, 'nikhil-theme'
+    #, 'pelican-hss'
+)
+#THEME = 'themes/sepio'
 PLUGIN_PATHS = [
     os.path.join(
         PELICANDIR
