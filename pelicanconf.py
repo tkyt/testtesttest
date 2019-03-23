@@ -15,7 +15,8 @@ THEME = os.path.join(
     #, 'clean-blog'
     #, 'cebong'
     #, 'Just-Read'
-    , 'nikhil-theme'
+    #, 'nikhil-theme'
+    , 'simple-bootstrap'
     #, 'pelican-hss'
 )
 #THEME = 'themes/sepio'
