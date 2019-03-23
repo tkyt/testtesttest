@@ -1,12 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
-@media (max-width: 776px) {
-    .text-right {
-      text-align: left;
-    }
 /* Space out content a bit */
 body {
-    padding-top: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
+  padding-top: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -165,23 +159,23 @@ body {
 .il { color: #009999 } /* Literal.Number.Integer.Long */
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-    /* Remove the padding we set earlier */
-    .header,
-    .content,
-    .footer,
-    .comment {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-    .nav-pills,.bottom-nav{
-        display:block;
-    }
+  /* Remove the padding we set earlier */
+  .header,
+  .content,
+  .footer,
+  .comment {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+ .nav-pills,.bottom-nav{
+    display:block;
+ }
 }
 img{
-    max-width: 80%;
-    height: auto;
+    max-width: 100%;
+    max-height: auto;
 }
