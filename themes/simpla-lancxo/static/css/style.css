@@ -1,71 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese');
-@media (max-width: 776px) {
-    .text-right {
-      text-align: left;
-    }
 /* Space out content a bit */
-body {
-    padding-top: 20px;
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .footer,
 .content,
 .comment {
-  padding-left: 5px;
-  padding-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .nav-pills{
     display:none;
 }
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
 }
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-  margin-top:40px;
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+    margin-top:40px;
 }
 
 /* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+@media (min-width: 800px) {
+    .container {
+        max-width: 768px;
+    }
 }
 .container-narrow > hr {
-  margin: 30px 0;
+    margin: 30px 0;
 }
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
 }
 .jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
+    font-size: 21px;
+    padding: 14px 24px;
 }
 
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+    margin: 40px 0;
 }
 .marketing p + h4 {
-  margin-top: 28px;
+    margin-top: 28px;
 }
 .header .text-muted  a{
     color:#999;
@@ -181,7 +171,29 @@ body {
         display:block;
     }
 }
-img{
-    max-width: 80%;
-    height: auto;
+
+body {
+    padding-top: 20px;
+    font-size: 16px;
 }
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+h1 {
+    font-size: 2.0em;
+}
+h2 {
+    font-size: 1.75em;
+    border-bottom: double 3px silver;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.5em;
+    border-bottom: solid 1px silver;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.25em;
+}
+
