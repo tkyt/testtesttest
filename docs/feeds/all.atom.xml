@@ -76,9 +76,10 @@ pythonを使ったstatic site generatorで一番人気だったから。
 単に使わなければいいといえばそのとおりなんだけど、選択肢が多すぎるので、こうやって理由をつけてラフに落としていくしかない。
 日本の大企業の新卒採用もこうしてフィルタリングしているんだろうか...。&lt;/p&gt;
 &lt;p&gt;いろいろ迷ったが、
-&lt;a href="https://github.com/getpelican/pelican-themes/tree/master/cebong"&gt;cebong&lt;/a&gt;
+&lt;a href="https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap"&gt;simple-bootstrap&lt;/a&gt;
 にした。
-ただしそのままではなく、一部を書き換えて使う。&lt;/p&gt;
+ただしそのままではなく、一部を書き換えて使う。
+ホントはcebongも良かったんだけど、スマホ対応してなかったから断念。&lt;/p&gt;
 &lt;h3&gt;タイトル&lt;/h3&gt;
 &lt;p&gt;悩ましい。
 自分が気に入る名前がいいが、あまり命名センスに自信がないので、あまり凝った名前にはしないほうがいいだろう。

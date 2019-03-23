@@ -79,9 +79,10 @@ pythonを使ったstatic site generatorで一番人気だったから。
 日本の大企業の新卒採用もこうしてフィルタリングしているんだろうか...。
 
 いろいろ迷ったが、
-[cebong](https://github.com/getpelican/pelican-themes/tree/master/cebong)
+[simple-bootstrap](https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap)
 にした。
 ただしそのままではなく、一部を書き換えて使う。
+ホントはcebongも良かったんだけど、スマホ対応してなかったから断念。
 
 ### タイトル
 

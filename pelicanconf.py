@@ -30,8 +30,10 @@ PLUGINS = ['render_math']
 
 AUTHOR = 'tkyt'
 SITENAME = 'Baby learnings'
-#SITE_DESCRIPTION = 'to stand on the shoulders of Giants'
+SITE_DESCRIPTION = 'to stand on the shoulders of Giants'
 SITETAGLINE = 'to stand on the shoulders of Giants'
+SITESUBTITLE = 'to stand on the shoulders of Giants'
+
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
