@@ -31,7 +31,7 @@ AUTHOR = 'tkyt'
 SITENAME = 'Baby learnings'
 SITETAGLINE = 'to stand on the shoulders of Giants'
 SITEURL = 'http://localhost:8000'
-SITEURL = 'https://tkyt.github.io/til'
+#SITEURL = 'https://tkyt.github.io/til'
 
 PATH = 'content'
 
