@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="ja">
+    <head>
         <title>Today I learned</title>
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
@@ -10,31 +10,20 @@
         <meta name="copyright" content="tkyt" />
         <meta name="date" content="2019-03-23 12:31:19+09:00">
         <meta name="robots" content="index,follow">
-
+    
         <link rel="stylesheet" href="https://tkyt.github.io/til/theme/css/main.css" type="text/css" />
-
-        <!--[if IE]>
-                <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="https://tkyt.github.io/til/css/ie.css"/>
-                <script src="https://tkyt.github.io/til/js/IE8.js" type="text/javascript"></script><![endif]-->
-
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="https://tkyt.github.io/til/css/ie6.css"/><![endif]-->
-
-</head>
-
-<body id="index" class="home">
-        <header id="banner" class="body">
+    </head>
+    
+    <body id="index" class="home">
+            <header id="banner" class="body">
                 <h1><a href="https://tkyt.github.io/til">Baby learnings </a></h1>
-                <div id="tagline">to stand on the shoulders of Giants</div>
+                    <div id="tagline">to stand on the shoulders of Giants</div>
                 <nav>
-                    <a href="https://tkyt.github.io/til/category/esperanto.html">esperanto</a>&nbsp;
-                    <a href="https://tkyt.github.io/til/category/misc.html">misc</a>&nbsp;
-                    <a href="https://tkyt.github.io/til/category/pc.html">pc</a>&nbsp;
+                        <a href="https://tkyt.github.io/til/category/esperanto.html">esperanto</a>&nbsp;
+                        <a href="https://tkyt.github.io/til/category/misc.html">misc</a>&nbsp;
+                        <a href="https://tkyt.github.io/til/category/pc.html">pc</a>&nbsp;
                 </nav>
-        </header><!-- /#banner -->
+            </header><!-- /#banner -->
 <section id="content" class="body">
   <article>
     <header>
@@ -50,33 +39,33 @@
         </abbr>
 </footer><!-- /.post-info -->      <p>いわゆる<em>Today I learned</em>というのを始めた。
 始めた経緯や運用開始までの工程をまとめる。</p>
-<h1>きっかけ</h1>
-<h2>自分の日頃の学習の促進</h2>
+<h2>きっかけ</h2>
+<h3>自分の日頃の学習の促進</h3>
 <p>いつものようになにか調べものをしていたときにこまめなoutputを推奨する記事を見つけた。
 単に知って終わりではなくoutputという形にまとめると、今までよりも深く理解しようとするらしい。</p>
-<h2>output力の向上</h2>
+<h3>output力の向上</h3>
 <p>日頃からいろいろinputしている(つもり)だが、outputをほとんどしていなかった。
 得た知識を自分のために役立てたり、知識を得た事自体に満足したり、で終わっていた。
 そうすると自分が得たものは何であるかを人に説明する能力が身につかない。
 普段自分の考えを人に伝えるのが面倒というか苦手に感じていたが、このあたりに原因があるのではないかと考えた。</p>
-<h2>誰かの助けになりたい</h2>
+<h3>誰かの助けになりたい</h3>
 <p>いままでは自分が学んだことをローカルのメモに書き残していただけだった。
 しかもstatic site generatorを使って、きれいなHTMLに整形する環境まで整えていた。
 そこまでやったらもう公開しちゃってもいいんじゃないかと思った。
 もし困っている誰かの助けになるかもしれないし。
 いままでWeb上で公開されている情報に幾度となく救われているのだから、そろそろ恩返しをしたいと思ったのもある。</p>
-<h1>環境作り</h1>
+<h2>環境作り</h2>
 <p>GitHubにあるToday I learned (TIL)はmarkdownファイルを自分のTILリポジトリにcommitし、見たい人はGitHub上でそのファイルを開いて見ることになる。
 GitHubではmarkdownを整形して表示する機能があるので、それで十分。
 ただ、せっかく自分の学習の促進を目的にしているのだから、環境作りすら学習の一環にしてしまおうと思った。
 もちろんこういうところの敷居が高いと人によっては面倒に思うかもしれないし、維持が大変だと自分も嫌になると思う。
 その辺はしばらくやってみて、その後考えることにする。</p>
 <p>こういう形からというか、周辺からきちっと埋めていくところは、すごく自分らしいと感じる。</p>
-<h2>記事</h2>
+<h3>記事</h3>
 <p>markdownで書く。
 以前からメモのフォーマットとしてどれがいいかいろいろ試しており、AsciiDocを使っていたこともあったが、結局markdownに戻ってきた。
 その辺の経験もいつかまとめて公開したい。</p>
-<h2>サイトジェネレータ</h2>
+<h3>サイトジェネレータ</h3>
 <p>markdownをHTMLに変換するstatic site generatorを選ぶ。
 ローカルのメモ書きの変換には
 <a href="https://www.mkdocs.org/">Mkdocs</a>
@@ -93,7 +82,7 @@ pythonを使ったstatic site generatorで一番人気だったから。
 ちなみにMkdocsは2位で、この2つがpythonの2大static site generatorのようである。(2019.03.23現在)</p>
 <p><a href="https://www.staticgen.com/"><img alt="static site generator filterd by python" src="./images/ssg_python.png"></a></p>
 <p>いつか勉強という名目で、他言語で書かれたサイトジェネレータを使ってみてもいいかもしれない。</p>
-<h2>テーマ</h2>
+<h3>テーマ</h3>
 <p>まあ、後からいくらでも変えられるんだけど、最初にびしっと決めておくといいかな、と。
 <a href="http://www.pelicanthemes.com">ここ</a>
 でテーマのスクリーンショットを一望できる。</p>
@@ -105,7 +94,7 @@ pythonを使ったstatic site generatorで一番人気だったから。
 <a href="https://github.com/getpelican/pelican-themes/tree/master/cebong">cebong</a>
 にした。
 ただしそのままではなく、一部を書き換えて使う。</p>
-<h2>タイトル</h2>
+<h3>タイトル</h3>
 <p>悩ましい。
 自分が気に入る名前がいいが、あまり命名センスに自信がないので、あまり凝った名前にはしないほうがいいだろう。
 このTILの目的を表す名前にしたい。</p>
@@ -123,7 +112,7 @@ pythonを使ったstatic site generatorで一番人気だったから。
 <p><strong>Baby learnings -to stand on the shoulders of Giants-</strong></p>
 <p>にする。
 ちょっと恥ずかしいタイトルな気もするが、気に入ったからいいだろう。</p>
-<h2>公開場所</h2>
+<h3>公開場所</h3>
 <p>レンタルサーバを使うのが一般的なんだろうか。
 月額費用を払うほどの価値があるのか知らないが、そこまで維持費を払うつもりはない。
 自宅サーバもあるにはあるが、ただのローカル限定ファイルサーバであり、セキュリティを犠牲にして扱いやすくしている。</p>
@@ -132,12 +121,12 @@ pythonを使ったstatic site generatorで一番人気だったから。
 しかもgitでバージョン管理できる。
 何の不満もない。
 それにサイトジェネレータを使うのがめんどくさくなっても、GitHubで一般的に行われている普通のTIL方式にすればいいだけ。</p>
-<h1>運用開始</h1>
+<h2>運用開始</h2>
 <p>3-4か月前にGitHub pagesを使ったブログサイトの試験的な運用をしていたので、導入はスムーズ。
 GitHub pagesについてもいつかまとめてもいいかもしれない。
 以前自分が調べたときは、いろいろ情報は出てきたものの、古い情報も多く、現在はもっと柔軟性のあるものになっていることが多かった。
 その辺を最新情報としてまとめてもいいけど、どうせこういうソフトウェアは日々進歩しているので、そういうことをまとめてもしょうがないかもしれない。</p>
-<h1>まとめ</h1>
+<h2>まとめ</h2>
 <p>ということで、ブログと言っていいのかわからないが、自分の知っていること、知ったことをまとめて公開するサイトをつくった。
 しばらくは今までローカルにまとめていただけのことを、他人が読めるレベルに校正してから、公開する作業をするだろう。
 それで終わらないように、新しいことも、積極的にこちらに置きたい。</p>
@@ -145,15 +134,13 @@ GitHub pagesについてもいつかまとめてもいいかもしれない。
 
   </article>
 </section>
-        <section id="extras" class="body">
-        </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
+            <section id="extras" class="body">
+            </section><!-- /#extras -->
+            <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
-                    Persona kono bazo kaj Hodiaŭ mi lernis,  Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>. Theme is using <a href="https://github.com/getpelican/pelican-themes" target="_blank">cebong</a>.
+                    Persona kono bazo kaj Hodiaŭ mi lernis
                 </address><!-- /#about -->
-
-        </footer><!-- /#contentinfo -->
-
-</body>
+            </footer><!-- /#contentinfo -->
+        
+    </body>
 </html>
