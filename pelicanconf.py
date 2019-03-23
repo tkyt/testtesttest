@@ -19,7 +19,7 @@ THEME = os.path.join(
     , 'simple-bootstrap'
     #, 'pelican-hss'
 )
-#THEME = 'themes/sepio'
+THEME = 'themes/simpla-lancxo'
 PLUGIN_PATHS = [
     os.path.join(
         PELICANDIR
