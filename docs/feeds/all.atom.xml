@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/all.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-03-23T12:31:19+09:00</updated><entry><title>Today I learned</title><link href="https://tkyt.github.io/til/today-i-learned.html" rel="alternate"></link><published>2019-03-23T12:31:19+09:00</published><updated>2019-03-23T12:31:19+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/today-i-learned.html</id><summary type="html"></summary><content type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/all.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-03-23T23:25:31+09:00</updated><entry><title>Today I learned</title><link href="https://tkyt.github.io/til/today-i-learned.html" rel="alternate"></link><published>2019-03-23T12:31:19+09:00</published><updated>2019-03-23T12:31:19+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/today-i-learned.html</id><summary type="html"></summary><content type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
 始めた経緯や運用開始までの工程をまとめる。&lt;/p&gt;
 &lt;h2&gt;きっかけ&lt;/h2&gt;
 &lt;h3&gt;自分の日頃の学習の促進&lt;/h3&gt;
@@ -223,13 +223,10 @@ SDHC対応機器はSDXCを認識不可。&lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content><category term="test"></category></entry><entry><title>StrengthsFinder</title><link href="https://tkyt.github.io/til/strengthsfinder.html" rel="alternate"></link><published>2018-02-03T00:00:00+09:00</published><updated>2018-02-03T00:00:00+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-02-03:/til/strengthsfinder.html</id><summary type="html"></summary><content type="html">&lt;p&gt;last mod: 2019-03-23T23:25:31+09:00
-tags: &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;StrengthFinderという本を読んだ。
+&lt;/script&gt;</content><category term="test"></category></entry><entry><title>StrengthsFinder</title><link href="https://tkyt.github.io/til/strengthsfinder.html" rel="alternate"></link><published>2018-02-03T00:00:00+09:00</published><updated>2019-03-23T23:25:31+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-02-03:/til/strengthsfinder.html</id><summary type="html"></summary><content type="html">&lt;p&gt;StrengthFinderという本を読んだ。
 個人の特性を34の資質に分類した本。
 いろいろ気づいたことが多かったので紹介する。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.amazon.co.jp/dp/4532321433"&gt;&lt;img alt src="https://images-na.ssl-images-amazon.com/images/I/71Jdc24HjAL.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.amazon.co.jp/dp/4532321433"&gt;&lt;img alt src="https://images-na.ssl-images-amazon.com/images/I/51fBJn4TCcL._SX341_BO1,204,203,200_.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;読んだきっかけ&lt;/h2&gt;
 &lt;p&gt;実はこれを読んだのは、この記事を書いている1年以上前であり、その頃は日記をサボっていた時期だったので、実のところきっかけを正確には覚えていない。
 確か仕事が自分に向いているか悩んでいた時期で(まあ今もまだ少し悩んでいるが)、一度自分の特徴に立ち返って考えたいと思って手に取ったはず。&lt;/p&gt;
@@ -288,4 +285,5 @@ tags: &lt;/p&gt;
 &lt;p&gt;自分がどういう人間か、少しだけわかった気がする。
 それを踏まえて、日々を過ごしてみよう。&lt;/p&gt;
 &lt;p&gt;おれはこれを受けて、改めて自分が新しいことを学び、それを発展させて最高のものを生み出すことを望んでいることがわかった。
-ただ、そんな道のりも日々の学習からということで、それを促すためにTILを始めた。&lt;/p&gt;</content></entry></feed>
+ただ、そんな道のりも日々の学習からということで、それを促すためにTILを始めた。&lt;/p&gt;
+&lt;p&gt;もっとちゃんと書こう。&lt;/p&gt;</content></entry></feed>

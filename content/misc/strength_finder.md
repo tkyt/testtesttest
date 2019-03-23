@@ -1,7 +1,7 @@
 ---
 title: StrengthsFinder
 date: 2018-02-03T00:00:00+09:00
-last mod: 2019-03-23T23:25:31+09:00
+modified: 2019-03-23T23:25:31+09:00
 tags: 
 ---
 
@@ -9,7 +9,7 @@ StrengthFinderという本を読んだ。
 個人の特性を34の資質に分類した本。
 いろいろ気づいたことが多かったので紹介する。
 
-[![alt](https://images-na.ssl-images-amazon.com/images/I/71Jdc24HjAL.jpg)](https://www.amazon.co.jp/dp/4532321433)
+[![alt](https://images-na.ssl-images-amazon.com/images/I/51fBJn4TCcL._SX341_BO1,204,203,200_.jpg)](https://www.amazon.co.jp/dp/4532321433)
 
 ## 読んだきっかけ
 
@@ -78,4 +78,6 @@ StrengthFinderという本を読んだ。
 
 おれはこれを受けて、改めて自分が新しいことを学び、それを発展させて最高のものを生み出すことを望んでいることがわかった。
 ただ、そんな道のりも日々の学習からということで、それを促すためにTILを始めた。
+
+もっとちゃんと書こう。
 
