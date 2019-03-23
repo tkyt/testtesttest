@@ -5,7 +5,6 @@
             <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
             <meta charset="utf-8" />
             <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
-            <!-- <link href="{{ SITEURL }}/theme/static/css/style.css" rel="stylesheet" /> -->
             <link href="{{ SITEURL }}/theme/css/style.css" rel="stylesheet" />
     	    {% if FAVICON %}
     	        <link rel="shortcut icon" href="{{ SITEURL }}/{{ FAVICON }}" type="image/x-icon" />
@@ -49,9 +48,11 @@
                     <li{% if author or tag %} class="active"{% endif %}{% block archclass %}{{ ARCHCLASS }}{% endblock archclass %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
                 </ul>
                 <h1 class="text-muted">
-                    <a href="{{ SITEURL }}">{{ SITENAME }}
+                    <a href="{{ SITEURL }}">{{ SITENAME }}</a>
                 </h1>
-                <h4 class="text-muted">{{ SITESUBTITLE }}</h4>
+                <h4 class="text-muted">
+                    {{ SITESUBTITLE }}
+                </h4>
             </div>
             {% block content %}
             {% endblock %}
@@ -60,10 +61,10 @@
                     <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">RSS</a>
                 </nav>
                 <address id="about" class="vcard body">
-                    <a href="{{SITEURL}}">{{SITENAME}}</a>, written by <a href="{{SITEURL}}/author/{{AUTHOR}}.html">{{AUTHOR}}</a>
-                </address><!-- /#about -->
-            </footer><!-- /#contentinfo -->
-        </div><!-- container -->
+                    <a href="{{SITEURL}}">{{SITENAME}}</a> written by {{AUTHOR}}
+                </address>
+            </footer>
+        </div>
 		{% include 'analytics.html' %}
         {% include 'piwik.html' %}
     </body>
