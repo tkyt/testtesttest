@@ -1,5 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings - misc</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/misc.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2018-11-11T11:11:11+09:00</updated><entry><title>hoge</title><link href="https://tkyt.github.io/til/hoge.html" rel="alternate"></link><published>2018-11-11T11:11:11+09:00</published><updated>2018-11-11T11:11:11+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-11:/til/hoge.html</id><summary type="html">&lt;h1&gt;hoge&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings - misc</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/misc.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-03-23T12:31:19+09:00</updated><entry><title>Today I learned</title><link href="https://tkyt.github.io/til/today-i-learned.html" rel="alternate"></link><published>2019-03-23T12:31:19+09:00</published><updated>2019-03-23T12:31:19+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/today-i-learned.html</id><summary type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
+始めた経緯や運用開始までの工程をまとめる。&lt;/p&gt;
+&lt;h1&gt;きっかけ&lt;/h1&gt;
+&lt;h2&gt;自分の日頃の学習の促進&lt;/h2&gt;
+&lt;p&gt;いつものようになにか調べものをしていたときにこまめなoutputを推奨する記事を見つけた。
+単に知って終わりではなくoutputという形にまとめると、今までよりも深く理解しようとするらしい。&lt;/p&gt;
+&lt;h2&gt;output力の向上&lt;/h2&gt;
+&lt;p&gt;日頃からいろいろinputしている(つもり)だが、outputをほとんどしていなかった。
+得た知識を自分のために役立てたり、知識を得た事自体に満足したり、で終わっていた。
+そうすると自分が得たものは何であるかを人に説明する能力が身につかない。
+普段自分の考えを人に伝えるのが面倒というか苦手に感じていたが、このあたりに原因があるのではないかと考えた。&lt;/p&gt;
+&lt;h2&gt;誰かの助けになりたい&lt;/h2&gt;
+&lt;p&gt;いままでは自分が学んだことをローカルのメモに書き残していただけだった。
+しかもstatic site generatorを使って、きれいなHTMLに整形する環境まで整えていた。
+そこまでやったらもう公開しちゃってもいいんじゃないかと思った。
+もし困っている誰かの助けになるかもしれないし。
+いままでWeb上で公開されている情報に幾度となく救われているのだから、そろそろ恩返しをしたいと思ったのもある。&lt;/p&gt;
+&lt;h1&gt;環境作り&lt;/h1&gt;
+&lt;p&gt;GitHubにあるToday I learned (TIL)はmarkdownファイルを自分のTILリポジトリにcommitし、見たい人は自分でそのファイルを開いて見ることになる。
+GitHubではmarkdownを整形して表示する機能があるので、それでも十分。
+ただ、せっかく自分の学習の促進を目的にしているのだから、環境作りすら学習の一環にしてしまおうと思った。
+もちろんこういうところの敷居が高いと人によっては面倒に思うかもしれないし、維持が大変だと自分も嫌になると思う。
+その辺はしばらくやってみて、その後考えることにする。&lt;/p&gt;
+&lt;p&gt;こういう形からというか周辺部分からきちっと埋めていくところは、すごく自分らしいと感じる …&lt;/p&gt;</summary><content type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
+始めた経緯や運用開始までの工程をまとめる。&lt;/p&gt;
+&lt;h1&gt;きっかけ&lt;/h1&gt;
+&lt;h2&gt;自分の日頃の学習の促進&lt;/h2&gt;
+&lt;p&gt;いつものようになにか調べものをしていたときにこまめなoutputを推奨する記事を見つけた。
+単に知って終わりではなくoutputという形にまとめると、今までよりも深く理解しようとするらしい。&lt;/p&gt;
+&lt;h2&gt;output力の向上&lt;/h2&gt;
+&lt;p&gt;日頃からいろいろinputしている(つもり)だが、outputをほとんどしていなかった。
+得た知識を自分のために役立てたり、知識を得た事自体に満足したり、で終わっていた。
+そうすると自分が得たものは何であるかを人に説明する能力が身につかない。
+普段自分の考えを人に伝えるのが面倒というか苦手に感じていたが、このあたりに原因があるのではないかと考えた。&lt;/p&gt;
+&lt;h2&gt;誰かの助けになりたい&lt;/h2&gt;
+&lt;p&gt;いままでは自分が学んだことをローカルのメモに書き残していただけだった。
+しかもstatic site generatorを使って、きれいなHTMLに整形する環境まで整えていた。
+そこまでやったらもう公開しちゃってもいいんじゃないかと思った。
+もし困っている誰かの助けになるかもしれないし。
+いままでWeb上で公開されている情報に幾度となく救われているのだから、そろそろ恩返しをしたいと思ったのもある。&lt;/p&gt;
+&lt;h1&gt;環境作り&lt;/h1&gt;
+&lt;p&gt;GitHubにあるToday I learned (TIL)はmarkdownファイルを自分のTILリポジトリにcommitし、見たい人は自分でそのファイルを開いて見ることになる。
+GitHubではmarkdownを整形して表示する機能があるので、それでも十分。
+ただ、せっかく自分の学習の促進を目的にしているのだから、環境作りすら学習の一環にしてしまおうと思った。
+もちろんこういうところの敷居が高いと人によっては面倒に思うかもしれないし、維持が大変だと自分も嫌になると思う。
+その辺はしばらくやってみて、その後考えることにする。&lt;/p&gt;
+&lt;p&gt;こういう形からというか周辺部分からきちっと埋めていくところは、すごく自分らしいと感じる。&lt;/p&gt;
+&lt;h2&gt;記事&lt;/h2&gt;
+&lt;p&gt;markdownで書く。
+以前からメモのフォーマットとしてどれがいいかいろいろ試しており、AsciiDocを使っていたこともあったが、結局markdownに戻ってきた。
+その辺の経験もいつかまとめて公開したい。&lt;/p&gt;
+&lt;h2&gt;サイトジェネレータ&lt;/h2&gt;
+&lt;p&gt;markdownをHTMLに変換するstatic site generatorを選ぶ。
+ローカルのメモ書きの変換には
+&lt;a href="https://www.mkdocs.org/"&gt;Mkdocs&lt;/a&gt;
+を使用している。
+それと同じでは芸がないのと、そもそもあれはもっとカチッとしたドキュメント類をまとめるためのツール(ドキュメンテーション?)であり、散発的な情報を置くサイトを作るのに向いていない。
+そのあたりの違いはツールの違いなのか、それともテーマの違いなのか。
+後で調べてみよう。
+また自分の知識の曖昧さを見つけてしまった。&lt;/p&gt;
+&lt;p&gt;熟考の末、
+&lt;a href="https://docs.getpelican.com"&gt;Pelican&lt;/a&gt;
+を使うことにした。
+pythonを使ったstatic site generatorで一番人気だったから。
+全然熟考してない。
+ちなみにMkdocsは2位で、この2つがpythonの2大static site generatorのようである。(2019.03.23現在)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.staticgen.com/"&gt;&lt;img alt="static site generator filterd by python" src="./images/ssg_python.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;いつか勉強という名目で、他言語で書かれたサイトジェネレータを使ってみてもいいかもしれない。&lt;/p&gt;
+&lt;h2&gt;テーマ&lt;/h2&gt;
+&lt;p&gt;まあ、後からいくらでも変えられるんだけど、最初にびしっと決めておくといいかな、と。
+&lt;a href="http://www.pelicanthemes.com"&gt;ここ&lt;/a&gt;
+でテーマのスクリーンショットを一望できる。&lt;/p&gt;
+&lt;p&gt;ミニマリズム志向なので、あまりごちゃごちゃしているのは好きじゃない。
+また、リアルの自分と結びつけるつもりはないので、デフォルトで大量のSNSのボタンがあったり、自分の写真を乗っける前提のテーマを除外。
+単に使わなければいいといえばそのとおりなんだけど、選択肢が多すぎるので、こうやって理由をつけてラフに落としていくしかない。
+日本の大企業の新卒採用もこうしてフィルタリングしているんだろうか...。&lt;/p&gt;
+&lt;p&gt;いろいろ迷ったが、
+&lt;a href="https://github.com/getpelican/pelican-themes/tree/master/cebong"&gt;cebong&lt;/a&gt;
+にした。
+ただしそのままではなく、一部を書き換えて使う。&lt;/p&gt;
+&lt;h2&gt;タイトル&lt;/h2&gt;
+&lt;p&gt;悩ましい。
+自分が気に入る名前がいいが、あまり命名センスに自身がないので、あまり凝った名前にはしないほうがいいだろう。
+このTILの目的を表す名前がいいだろう。&lt;/p&gt;
+&lt;p&gt;一番の目的は、日々の小さな学習の積み重ねを促すこと。
+そう考えたときに真っ先に思いつくのは、&lt;strong&gt;Baby steps to Giant strides&lt;/strong&gt;。
+マガジンのテニス漫画のベイビーステップのサブタイトルだか英語版のタイトル。
+この漫画は自分のお気に入りの一つ。
+これの魅力をまとめた記事もいずれ書きたい。&lt;/p&gt;
+&lt;p&gt;で、さらに巨人といえば、&lt;strong&gt;Standing on the shoulder of Giants&lt;/strong&gt;。
+ニュートンが自分の知見について表した言葉として有名。
+引用元はもっと昔の哲学者らしい。
+こうやって適切に引用できるくらい、今までの知見を深く理解することで初めて新しい発見ができるんだろう。&lt;/p&gt;
+&lt;p&gt;この日々の学習も、いずれはニュートンのように(とまでは言わないが)、そういった素晴らしい知見を得るに至ることを最終目的にしている。
+ということでタイトルは、&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Baby learnings -to stand on the shoulder of Giants-&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;にする。
+ちょっと恥ずかしいタイトルな気もするが、気に入ったからいいだろう。&lt;/p&gt;
+&lt;h2&gt;公開場所&lt;/h2&gt;
+&lt;p&gt;レンタルサーバを使うのが一般的なんだろうか。
+月額費用を払うほどの価値があるのか知らないが、そこまで維持費を払うつもりはない。
+GitHub pagesを使って公開することにする。
+やり方さえ知っていれば公開するのは簡単。
+しかもgitでバージョン管理できる。
+何の不満もない。
+それにサイトジェネレータを使うのがめんどくさくなっても、GitHubで一般的に行われている普通のTIL方式にすればいいだけ。&lt;/p&gt;
+&lt;h1&gt;運用開始&lt;/h1&gt;
+&lt;p&gt;3-4か月前にGitHub pagesを使ったブログサイトの試験的な運用をしていたので、導入はスムーズ。
+GitHub pagesについてもいつかまとめてもいいかもしれない。
+以前自分が調べたときは、いろいろ情報は出てきたものの、古い情報も多く、現在はもっと柔軟性のあるものになっていることが多かった。
+その辺を最新情報としてまとめてもいいけど、どうせこういうソフトウェアは日々進歩しているので、そういうことをまとめてもしょうがないかもしれない。&lt;/p&gt;
+&lt;h1&gt;まとめ&lt;/h1&gt;
+&lt;p&gt;ということで、ブログと言っていいのかわからないが、自分の知っていること、知ったことをまとめて公開するサイトをつくった。
+しばらくは今までローカルにまとめていただけのことを、他人が読めるレベルに校正してから、公開する作業をするだろう。
+それで終わらないように、新しいことも、積極的にこちらに置きたい。&lt;/p&gt;</content></entry><entry><title>hoge</title><link href="https://tkyt.github.io/til/hoge.html" rel="alternate"></link><published>2018-11-11T11:11:11+09:00</published><updated>2018-11-11T11:11:11+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-11:/til/hoge.html</id><summary type="html">&lt;h1&gt;hoge&lt;/h1&gt;
 &lt;p&gt;hogehoge&lt;/p&gt;
 &lt;h2&gt;hoge&lt;/h2&gt;
 &lt;p&gt;これはテストです。
