@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/all.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-03-23T12:31:19+09:00</updated><entry><title>Today I learned</title><link href="https://tkyt.github.io/til/today-i-learned.html" rel="alternate"></link><published>2019-03-23T12:31:19+09:00</published><updated>2019-03-23T12:31:19+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/today-i-learned.html</id><summary type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
-始めた経緯や運用開始までの工程をまとめる。&lt;/p&gt;
-&lt;h2&gt;きっかけ&lt;/h2&gt;
-&lt;h3&gt;自分の日頃の学習の促進&lt;/h3&gt;
-&lt;p&gt;いつものようになにか調べものをしていたときにこまめなoutputを推奨する記事を見つけた。
-単に知って終わりではなくoutputという形にまとめると、今までよりも深く理解しようとするらしい。&lt;/p&gt;
-&lt;h3&gt;output力の向上&lt;/h3&gt;
-&lt;p&gt;日頃からいろいろinputしている(つもり)だが、outputをほとんどしていなかった。
-得た知識を自分のために役立てたり、知識を得た事自体に満足したり、で終わっていた。
-そうすると自分が得たものは何であるかを人に説明する能力が身につかない。
-普段自分の考えを人に伝えるのが面倒というか苦手に感じていたが、このあたりに原因があるのではないかと考えた。&lt;/p&gt;
-&lt;h3&gt;誰かの助けになりたい&lt;/h3&gt;
-&lt;p&gt;いままでは自分が学んだことをローカルのメモに書き残していただけだった。
-しかもstatic site generatorを使って、きれいなHTMLに整形する環境まで整えていた。
-そこまでやったらもう公開しちゃってもいいんじゃないかと思った。
-もし困っている誰かの助けになるかもしれないし。
-いままでWeb上で公開されている情報に幾度となく救われているのだから、そろそろ恩返しをしたいと思ったのもある。&lt;/p&gt;
-&lt;h2&gt;環境作り&lt;/h2&gt;
-&lt;p&gt;GitHubにあるToday I learned (TIL)はmarkdownファイルを自分のTILリポジトリにcommitし、見たい人はGitHub上でそのファイルを開いて見ることになる。
-GitHubではmarkdownを整形して表示する機能があるので、それで十分。
-ただ、せっかく自分の学習の促進を目的にしているのだから、環境作りすら学習の一環にしてしまおうと思った。
-もちろんこういうところの敷居が高いと人によっては面倒に思うかもしれないし、維持が大変だと自分も嫌になると思う。
-その辺はしばらくやってみて、その後考えることにする。&lt;/p&gt;
-&lt;p&gt;こういう形からというか、周辺からきちっと埋めていくところは …&lt;/p&gt;</summary><content type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/all.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-03-23T12:31:19+09:00</updated><entry><title>Today I learned</title><link href="https://tkyt.github.io/til/today-i-learned.html" rel="alternate"></link><published>2019-03-23T12:31:19+09:00</published><updated>2019-03-23T12:31:19+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/today-i-learned.html</id><summary type="html"></summary><content type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
 始めた経緯や運用開始までの工程をまとめる。&lt;/p&gt;
 &lt;h2&gt;きっかけ&lt;/h2&gt;
 &lt;h3&gt;自分の日頃の学習の促進&lt;/h3&gt;
@@ -115,7 +92,7 @@ GitHub pagesについてもいつかまとめてもいいかもしれない。
 &lt;h2&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;ということで、ブログと言っていいのかわからないが、自分の知っていること、知ったことをまとめて公開するサイトをつくった。
 しばらくは今までローカルにまとめていただけのことを、他人が読めるレベルに校正してから、公開する作業をするだろう。
-それで終わらないように、新しいことも、積極的にこちらに置きたい。&lt;/p&gt;</content></entry><entry><title>エスペラントとLinux</title><link href="https://tkyt.github.io/til/esuperantotolinux.html" rel="alternate"></link><published>2019-03-23T00:33:57+09:00</published><updated>2019-03-23T00:33:57+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/esuperantotolinux.html</id><summary type="html">&lt;p&gt;エスペラントとLinuxの共通点について。&lt;/p&gt;
+それで終わらないように、新しいことも、積極的にこちらに置きたい。&lt;/p&gt;</content></entry><entry><title>エスペラントとLinux</title><link href="https://tkyt.github.io/til/esuperantotolinux.html" rel="alternate"></link><published>2019-03-23T00:33:57+09:00</published><updated>2019-03-23T00:33:57+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/esuperantotolinux.html</id><summary type="html"></summary><content type="html">&lt;p&gt;エスペラントとLinuxの共通点について。&lt;/p&gt;
 &lt;h1&gt;エスペラントとは&lt;/h1&gt;
 &lt;p&gt;エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
 世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。&lt;/p&gt;
@@ -124,16 +101,7 @@ GitHub pagesについてもいつかまとめてもいいかもしれない。
 &lt;h1&gt;Linux&lt;/h1&gt;
 &lt;p&gt;ご存知のとおり。&lt;/p&gt;
 &lt;h1&gt;LinuxとWindows&lt;/h1&gt;
-&lt;p&gt;WindowsはPCのOSのデファクトスタンダードと化している。&lt;/p&gt;</summary><content type="html">&lt;p&gt;エスペラントとLinuxの共通点について。&lt;/p&gt;
-&lt;h1&gt;エスペラントとは&lt;/h1&gt;
-&lt;p&gt;エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
-世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。&lt;/p&gt;
-&lt;h1&gt;エスペラントと英語&lt;/h1&gt;
-&lt;p&gt;英語は国際交流におけるデファクトスタンダードと化している。&lt;/p&gt;
-&lt;h1&gt;Linux&lt;/h1&gt;
-&lt;p&gt;ご存知のとおり。&lt;/p&gt;
-&lt;h1&gt;LinuxとWindows&lt;/h1&gt;
-&lt;p&gt;WindowsはPCのOSのデファクトスタンダードと化している。&lt;/p&gt;</content><category term="esperanto"></category><category term="linux"></category></entry><entry><title>SDカードの規格</title><link href="https://tkyt.github.io/til/sdkadonogui-ge.html" rel="alternate"></link><published>2018-11-25T18:59:45+09:00</published><updated>2018-11-25T18:59:45+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-25:/til/sdkadonogui-ge.html</id><summary type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
+&lt;p&gt;WindowsはPCのOSのデファクトスタンダードと化している。&lt;/p&gt;</content><category term="esperanto"></category><category term="linux"></category></entry><entry><title>SDカードの規格</title><link href="https://tkyt.github.io/til/sdkadonogui-ge.html" rel="alternate"></link><published>2018-11-25T18:59:45+09:00</published><updated>2018-11-25T18:59:45+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-25:/til/sdkadonogui-ge.html</id><summary type="html"></summary><content type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
 &lt;p&gt;いっぱいあってどれが何なのかわからん。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm"&gt;https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;サイズ&lt;/h2&gt;
@@ -158,121 +126,7 @@ SDHC対応機器はSDXCを認識不可。&lt;/p&gt;
 &lt;p&gt;ない。Amazon用のブランド名。
 同じプロセスで同じものを作って
 名前だけ変えてるだけ。
-こういうのって意味あんのかな。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
-&lt;p&gt;いっぱいあってどれが何なのかわからん。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm"&gt;https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;サイズ&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;SD&lt;/li&gt;
-&lt;li&gt;microSD&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;容量&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;SD: &amp;lt;2 GB&lt;/li&gt;
-&lt;li&gt;SDHC: 2-32 GB&lt;/li&gt;
-&lt;li&gt;SDXC: 32-256 GB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;後方互換性があり、大容量SDカードに対応している機器であれば、
-より小容量のSDカードも認識可能。
-例えばSDXC対応機器であればSDやSDHCを認識可能だが、
-SDHC対応機器はSDXCを認識不可。&lt;/p&gt;
-&lt;h2&gt;スピードクラス&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="a" src="https://jp.toshiba-memory.com/howto/sd/images/datacapacity/img3.jpg"&gt;&lt;/p&gt;
-&lt;h1&gt;Samsung EVO PlusとEVO Selectの違い&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.windowscentral.com/whats-difference-between-samsung-evo-select-and-evo-plus"&gt;https://www.windowscentral.com/whats-difference-between-samsung-evo-select-and-evo-plus&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ない。Amazon用のブランド名。
-同じプロセスで同じものを作って
-名前だけ変えてるだけ。
-こういうのって意味あんのかな。&lt;/p&gt;</content><category term="PC"></category></entry><entry><title>hoge</title><link href="https://tkyt.github.io/til/hoge.html" rel="alternate"></link><published>2018-11-11T11:11:11+09:00</published><updated>2018-11-11T11:11:11+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-11:/til/hoge.html</id><summary type="html">&lt;h1&gt;hoge&lt;/h1&gt;
-&lt;p&gt;hogehoge&lt;/p&gt;
-&lt;h2&gt;hoge&lt;/h2&gt;
-&lt;p&gt;これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。
-これはテストです。&lt;/p&gt;
-&lt;h2&gt;TeX&lt;/h2&gt;
-&lt;p&gt;&lt;span class="math"&gt;\(A = B \times C\)&lt;/span&gt;&lt;/p&gt;
-&lt;div class="math"&gt;$$E = m c^2$$&lt;/div&gt;
-&lt;div class="math"&gt;\begin{align*}
-    A = \frac{1}{f}
-\end{align*}&lt;/div&gt;
-&lt;p&gt;[A = B \times C]&lt;/p&gt;
-&lt;h1&gt;picture …&lt;/h1&gt;&lt;script type='text/javascript'&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</summary><content type="html">&lt;h1&gt;hoge&lt;/h1&gt;
+こういうのって意味あんのかな。&lt;/p&gt;</content><category term="PC"></category></entry><entry><title>hoge</title><link href="https://tkyt.github.io/til/hoge.html" rel="alternate"></link><published>2018-11-11T11:11:11+09:00</published><updated>2018-11-11T11:11:11+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-11:/til/hoge.html</id><summary type="html"></summary><content type="html">&lt;h1&gt;hoge&lt;/h1&gt;
 &lt;p&gt;hogehoge&lt;/p&gt;
 &lt;h2&gt;hoge&lt;/h2&gt;
 &lt;p&gt;これはテストです。

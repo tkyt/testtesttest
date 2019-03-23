@@ -33,16 +33,34 @@ SITENAME = 'Baby learnings'
 SITE_DESCRIPTION = 'to stand on the shoulders of Giants'
 SITETAGLINE = 'to stand on the shoulders of Giants'
 SITESUBTITLE = 'to stand on the shoulders of Giants'
-
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
+OUTPUT_PATH = 'docs/'
+YEAR_ARCHIVE_SAVE_AS = os.path.join(
+    '{date:%Y}'
+    , 'index.html'
+)
+MONTH_ARCHIVE_SAVE_AS = os.path.join(
+    '{date:%Y}'
+    , '{date:%m}'
+    , 'index.html'
+)
+DAY_ARCHIVE_SAVE_AS = os.path.join(
+    '{date:%Y}'
+    , '{date:%m}'
+    , '{date:%d}'
+    , 'index.html'
+)
 
 TIMEZONE = 'Asia/Tokyo'
 
 DEFAULT_LANG = 'ja'
-
 DEFAULT_CATEGORY = 'misc'
+DEFAULT_DATE_FORMAT = '%Y-%m-%d'
+SUMMARY_MAX_LENGTH = 0
+
+# DELETE_OUTPUT_DIRECTORY = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

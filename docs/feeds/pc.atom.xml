@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings - pc</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/pc.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2018-11-25T18:59:45+09:00</updated><entry><title>SDカードの規格</title><link href="https://tkyt.github.io/til/sdkadonogui-ge.html" rel="alternate"></link><published>2018-11-25T18:59:45+09:00</published><updated>2018-11-25T18:59:45+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-25:/til/sdkadonogui-ge.html</id><summary type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
-&lt;p&gt;いっぱいあってどれが何なのかわからん。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm"&gt;https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;サイズ&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;SD&lt;/li&gt;
-&lt;li&gt;microSD&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;容量&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;SD: &amp;lt;2 GB&lt;/li&gt;
-&lt;li&gt;SDHC: 2-32 GB&lt;/li&gt;
-&lt;li&gt;SDXC: 32-256 GB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;後方互換性があり、大容量SDカードに対応している機器であれば、
-より小容量のSDカードも認識可能。
-例えばSDXC対応機器であればSDやSDHCを認識可能だが、
-SDHC対応機器はSDXCを認識不可。&lt;/p&gt;
-&lt;h2&gt;スピードクラス&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="a" src="https://jp.toshiba-memory.com/howto/sd/images/datacapacity/img3.jpg"&gt;&lt;/p&gt;
-&lt;h1&gt;Samsung EVO PlusとEVO Selectの違い&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://www.windowscentral.com/whats-difference-between-samsung-evo-select-and-evo-plus"&gt;https://www.windowscentral.com/whats-difference-between-samsung-evo-select-and-evo-plus&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;ない。Amazon用のブランド名。
-同じプロセスで同じものを作って
-名前だけ変えてるだけ。
-こういうのって意味あんのかな。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings - pc</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/pc.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2018-11-25T18:59:45+09:00</updated><entry><title>SDカードの規格</title><link href="https://tkyt.github.io/til/sdkadonogui-ge.html" rel="alternate"></link><published>2018-11-25T18:59:45+09:00</published><updated>2018-11-25T18:59:45+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2018-11-25:/til/sdkadonogui-ge.html</id><summary type="html"></summary><content type="html">&lt;h1&gt;SDカードの規格の違い&lt;/h1&gt;
 &lt;p&gt;いっぱいあってどれが何なのかわからん。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm"&gt;https://jp.toshiba-memory.com/howto/sd/sd_memory_cards.htm&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;サイズ&lt;/h2&gt;
