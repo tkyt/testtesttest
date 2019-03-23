@@ -12,9 +12,9 @@ PELICANDIR = os.path.join(
 THEME = os.path.join(
     PELICANDIR
     , 'pelican-themes'
-    , 'clean-blog'
+    #, 'clean-blog'
     #, 'cebong'
-    #, 'Just-Read'
+    , 'Just-Read'
     #, 'nikhil-theme'
     #, 'pelican-hss'
 )
