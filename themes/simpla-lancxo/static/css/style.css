@@ -196,4 +196,8 @@ h3 {
 h4 {
     font-size: 1.25em;
 }
+/*.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus{
+    color:#fff;
+    background-color: #c3d825;
+}*/
 
