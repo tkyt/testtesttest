@@ -1,5 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings - misc</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/misc.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-03-23T23:25:31+09:00</updated><entry><title>Today I learned</title><link href="https://tkyt.github.io/til/today-i-learned.html" rel="alternate"></link><published>2019-03-23T12:31:19+09:00</published><updated>2019-03-23T12:31:19+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/today-i-learned.html</id><summary type="html"></summary><content type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings - misc</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/misc.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-05-09T20:20:21+09:00</updated><entry><title>皮膚科でイボを取ってもらう</title><link href="https://tkyt.github.io/til/pi-fu-ke-deibowoqu-tsutemorau.html" rel="alternate"></link><published>2019-05-09T20:20:21+09:00</published><updated>2019-05-09T20:20:21+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-05-09:/til/pi-fu-ke-deibowoqu-tsutemorau.html</id><summary type="html"></summary><content type="html">&lt;h1&gt;背景&lt;/h1&gt;
+&lt;p&gt;いつからか正確には覚えていない。
+もう5年以上前になるだろうか。
+ふと気付くと、右足太もも裏側の付け根に小さな出来物が存在していた。
+なんだこれ、気になるなあと思っていたが、特に害があるわけでもなかったため、放置していた。
+それが時とともに成長してきた。
+大きくなるたびに、何だろうこれと思い、Google先生に聞いたところ&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;軟性線維腫とか懸垂性繊維腫という名前&lt;ul&gt;
+&lt;li&gt;自己診断なので違うかも&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;皮膚科で切除してもらうのが一般的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ということがわかった。
+しかし自分は皮膚科に限らず医者に行く習慣がなく、なんとかして自分で治す方法を調べたり、何もしない理由を並び立てて、対応を先延ばしにしていた。
+(自分で切ったという古いブログを見つけたが、血が飛び出て収まらないとか洒落にならないことが書いてあった。)&lt;/p&gt;
+&lt;p&gt;だがここ数か月、座るたびに痛みが発生し、いい加減日常生活に支障をきたし始めた。
+数日前にちょっとした経験をしており、今まで無理だろうと思っていたことでも、ちょっとした心がけと行動であっさりできることをそれによって理解した。
+その経験を活かして、困ったときは病院に行くという習慣をつける一環で、医者に行ってみた。
+そのときにやったこと、経験したことをまとめる。
+普段個人用に書いている日記をベースに、一部表記を直しているので、文体がちょっとおかしいかもしれない。
+本当はきちんと全面改訂してアップロードしたいが、あまりにも面倒であり、面倒だとこのブログの習慣が消えて無くなりそうなので、とりあえず実施する。&lt;/p&gt;
+&lt;h1&gt;病院に行く前日&lt;/h1&gt;
+&lt;p&gt;いままで難癖レベルの行かない理由を並び立てていた病院へ行くことを本格的に考えだす。
+習慣がないから敷居が高いと感じるだけで、行ってしまえばなんてことはない。
+さっさと病院に行って、習慣にしてしまえ。
+いうことで、明日行こう。&lt;/p&gt;
+&lt;p&gt;ただ、普段病院なんて行かないから、周辺にどんな病院があるか知らないし、わかったところでどこがいいかわからない。
+ネットの評判を調べるのもいいが、その感想に至った背景が何もわからないので、参考にはならない。
+最初に変な医者にあたってしまい、やっぱ病院なんて行く必要ないわ、などという結論に至りたくないが、いきなりあたりを引くのも難しい。
+どうしたものか。&lt;/p&gt;
+&lt;p&gt;駅前にあるとある皮膚科は
+&lt;a href="https://park.paa.jp/park2/"&gt;アイチケット&lt;/a&gt;
+というシステムを導入している。
+これはオンライン予約システムというだけでなく、今の診察順番待ち状況をリアルタイムにモニタしたりもできるらしい。
+これを使うと、何時頃自分の番になるからそろそろ行こうとか、そういうことができるのか。
+どこの皮膚科に行ったらいいか迷っていたが、こういうのは好きなので、ここにしよう。
+調べた限り、周辺の病院は皮膚科に限らず、ここの病院しか対応していないらしい。
+こいつは素晴らしい。
+電話して、いつなら空いているか聞いて予約し、当日その時刻に行くが、前の患者が長引いていて待ちぼうけとか、そういうことがなくなるのか。
+旧態依然とした電話の事前予約システムの完全上位互換だ。&lt;/p&gt;
+&lt;p&gt;診察開始時刻になるとネット予約も解禁されるらしく、そこで予約して、時間になったら行くというスタイルらしい。
+診察開始までの時間が出るので、目安にする。
+おそらく待ち人数からあやしい計算で出しているんだろう。
+前日に予約するものかと思っていたが、肩透かしを食らってしまった。
+というのも、いま0:00過ぎなんだけど、Androidアプリから予約しようとしたのに、予約不可と言われたため。
+明日の午後一で受診しようと思ったのに。&lt;/p&gt;
+&lt;h1&gt;当日&lt;/h1&gt;
+&lt;p&gt;ただいま15:20。
+予約完了。
+56分待ちとのこと。&lt;/p&gt;
+&lt;h2&gt;皮膚科に行く&lt;/h2&gt;
+&lt;p&gt;お知らせによると、7番前までに行く必要があるらしい。
+直前に来る客が多いからわざわざ注意喚起しているのだろうか。
+最初だし、多少待っても読書してればいいし、早めに行こう。&lt;/p&gt;
+&lt;p&gt;しかし、向かっている途中でどんどん番号が進み、7番目を切ってしまった。
+しまったと思いつつも、しれっと受付に行ったら、普通に受付できた。
+7番前くらいを目標に早めに行動しろって意味だったのか。
+ちなみにこの皮膚科、雑居ビルの5階にあり、初めて行くから入り口がわからなくて、少しだけ迷った。&lt;/p&gt;
+&lt;p&gt;問診票に記入して待つ。&lt;/p&gt;
+&lt;h2&gt;診察開始&lt;/h2&gt;
+&lt;p&gt;ベッドにうつ伏せになった状態でズボン半脱ぎになって、パンツずらした。
+女性看護師と女性医師だったので、ちょっと恥ずかしい。
+イボ自体はでかいが、根本が細いので、炭酸ガスレーザーで焼き切ることも可能らしい。
+あとはメスでの切除という選択肢もある。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;炭酸ガスレーザー&lt;ul&gt;
+&lt;li&gt;レーザーで根本を焼き切る&lt;/li&gt;
+&lt;li&gt;ニキビ程度の跡が残る&lt;/li&gt;
+&lt;li&gt;微妙に残るかもしれない&lt;/li&gt;
+&lt;li&gt;一度の手術で終わる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;メス切除&lt;ul&gt;
+&lt;li&gt;メスで根本からえぐって取る&lt;/li&gt;
+&lt;li&gt;メスによる細い手術跡が残るが、炭酸ガスレーザーよりは目立たない&lt;/li&gt;
+&lt;li&gt;完全に切除可能&lt;/li&gt;
+&lt;li&gt;抜糸に来ないといけない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;手間をかけたくないので炭酸ガスレーザーにした。
+手術日程だが、水曜と木曜にやっていて、水曜はすでに予約が埋まっており、7月になるらしい。
+かといって木曜だとしても1か月後の6月らしい。
+どっちにしても今すぐじゃないのか。&lt;/p&gt;
+&lt;p&gt;と思ったら、なんと今日の遅くなら空いているらしい。
+今日はこれ以外なんの予定もないので、待合室でしばらく待って、今日手術してもらうことにした。
+こんなにトントン拍子に進むのはきっと珍しいのだろうな。
+最初にこういうスムーズにことが運んだ経験があると、今後も病院に行くことに対して抵抗を覚えないだろう。
+よかったよかった。&lt;/p&gt;
+&lt;h2&gt;炭酸ガスレーザー&lt;/h2&gt;
+&lt;p&gt;イボやほくろの除去に使われる。
+水分に反応する。
+波長は10600 nm。
+一般的に使用されるレーザーで最も長い波長であり、遠赤外線の領域。
+遠赤外線が患部に吸収されて熱になり、焼き切れるのだろうか。&lt;/p&gt;
+&lt;h2&gt;手術実施&lt;/h2&gt;
+&lt;p&gt;回復体位のような姿勢になった。
+枕の高さが全然あっていないが、腕枕するとなんとかなった。
+短時間なら大丈夫だろうと思ったが、短時間で終わるだろうか。
+術前に聞けばよかった。&lt;/p&gt;
+&lt;p&gt;ズボン半脱ぎに加えて、バンツも足側からめくられて、ケツが出てた。
+2度目でもやはり恥ずかしい。
+麻酔は最初チクッとしたが、それ以降は麻酔が効いているのか、痛くなかった。
+しばらくしたあと麻酔の効きの確認をされた。
+いずれもなにも感じなかったが、一体何をされたのだろうか。
+チクッとするかとか言われたので、もしかしたら針で刺していたのかもしれない。
+麻酔が効いているからって好き放題しやがって。
+知らんけど。&lt;/p&gt;
+&lt;p&gt;その後炭酸ガスレーザーによる切除に移った。
+お医者さんがおれから見えない位置で作業していたので想像だが、フットペダルを踏み込むとレーザーが照射される仕組みだと思われる。
+ガスコンロみたいなパチパチ音が間欠的に出ていたが、そのタイミングでレーザーが出ていたんだろう。
+レーザー生成装置が体の近くにあり、そこからの熱気が漂ってきて、ちょっと暑かった。&lt;/p&gt;
+&lt;p&gt;体感時間で5分くらいだろうか。
+手術終了した。
+腫瘍を見せてもらったが、まあ見慣れたアイツだった。
+これでこいつとはオサラバか。
+そう思うと感慨深いな。
+腫瘍を検査に回してくれるらしい。
+その結果が2週間後にわかる。
+キズの経過の確認もあるので、2週間後にまた来ることになった。
+まあ、これくらいは仕方ないか。
+堂々と早退する理由が出来た。&lt;/p&gt;
+&lt;p&gt;麻酔の効き目は1時間くらい。
+傷は深めの擦り傷程度。
+痛み止めはいるかと聞かれたが、いままでイボの痛みに耐えてきた自分には不要と判断した。
+当然だが、出血しているので厚めのガーゼが当てられている。
+今日は風呂と飲酒、運動禁止。
+明日以降毎日傷口に軟膏を塗って、大きめの絆創膏を貼る。
+明日の朝、ガーゼを外して様子を見た後、風呂入って軟膏塗ってから絆創膏を貼る。&lt;/p&gt;
+&lt;p&gt;しかし、こういう重要なことって口頭じゃなくて文章にしてくれないかな。
+忘れちゃうよ。
+忘れないように、こうやってメモしておかないと。&lt;/p&gt;
+&lt;h2&gt;お会計&lt;/h2&gt;
+&lt;p&gt;7940円。
+思ってたより高かったが、これであの腫瘍とおさらばできるなら安いもの。
+カード支払い出来た。
+オンライン予約に対応してるくらいだから当たり前か。
+ちゃんと保険が適用されており、負担率30%となっている。
+内訳は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;初・再診料: 282点&lt;/li&gt;
+&lt;li&gt;投薬: 68点&lt;/li&gt;
+&lt;li&gt;手術: 1285点&lt;/li&gt;
+&lt;li&gt;病理診断: 1010点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;の、計2645点。
+ああ、1点が10円で、その3割負担ということか。
+普段病院行かないからわからなかった。
+つまり金額に直して、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;初・再診料: 2820円&lt;/li&gt;
+&lt;li&gt;投薬: 680円&lt;/li&gt;
+&lt;li&gt;手術: 12850円&lt;/li&gt;
+&lt;li&gt;病理診断: 10100円&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;か。
+診察料と病理診断は何が違うんだろう。
+これからやる腫瘍が悪性かどうかの診断のことかな?&lt;/p&gt;
+&lt;h2&gt;薬局&lt;/h2&gt;
+&lt;p&gt;軟膏の処方箋が出たので、帰りに薬局による。
+ジェネリックにするか聞かれたので、どう違うのか念の為に聞いておいた。
+値段が違うとだけ言われた。
+それだけならもはや聞く必要なくね?&lt;/p&gt;
+&lt;p&gt;お会計490円。
+内訳は&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;調剤技術料: 1040円&lt;/li&gt;
+&lt;li&gt;薬学管理料: 530円&lt;/li&gt;
+&lt;li&gt;薬剤料: 70円&lt;/li&gt;
+&lt;li&gt;保険合計点: 1640円&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;で、その3割ということで490円。
+1円のくらいは四捨五入か。&lt;/p&gt;
+&lt;p&gt;処方された軟膏はゲンタマイシン硫酸塩軟膏0.1% "F" 1 mg、全量10 g。
+調べてみた。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.rad-ar.or.jp/siori/kekka.cgi?n=33293"&gt;http://www.rad-ar.or.jp/siori/kekka.cgi?n=33293&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;よくわからん。
+薬局の解説に細菌の感染を抑えると書いてあるから、そうなんだろう。&lt;/p&gt;
+&lt;h2&gt;麻酔が切れた&lt;/h2&gt;
+&lt;p&gt;が、特に痛みはない。
+今までイボの痛みで苦しんだので、掠り傷くらいと思ったが、&lt;/p&gt;
+&lt;h1&gt;術後&lt;/h1&gt;
+&lt;p&gt;続く。&lt;/p&gt;</content><category term="health"></category></entry><entry><title>Today I learned</title><link href="https://tkyt.github.io/til/today-i-learned.html" rel="alternate"></link><published>2019-03-23T12:31:19+09:00</published><updated>2019-03-23T12:31:19+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/today-i-learned.html</id><summary type="html"></summary><content type="html">&lt;p&gt;いわゆる&lt;em&gt;Today I learned&lt;/em&gt;というのを始めた。
 始めた経緯や運用開始までの工程をまとめる。&lt;/p&gt;
 &lt;h2&gt;きっかけ&lt;/h2&gt;
 &lt;h3&gt;自分の日頃の学習の促進&lt;/h3&gt;
@@ -199,17 +383,119 @@ GitHub pagesについてもいつかまとめてもいいかもしれない。
 &lt;h2&gt;34の資質&lt;/h2&gt;
 &lt;p&gt;この本で紹介されている34の資質。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;アレンジ (Arranger)&lt;/li&gt;
-&lt;li&gt;運命思考 (Connectedness)&lt;/li&gt;
-&lt;li&gt;回復志向 (Restorative)&lt;/li&gt;
-&lt;li&gt;学習欲 (Learner)&lt;/li&gt;
-&lt;li&gt;活発性 (Activator)&lt;/li&gt;
-&lt;li&gt;共感性 (Empathy)&lt;/li&gt;
-&lt;li&gt;競争性 (Competition)&lt;/li&gt;
-&lt;li&gt;規律性 (Discipline)&lt;/li&gt;
-&lt;li&gt;原点思考 (Context)&lt;/li&gt;
-&lt;li&gt;公平性 (Consistency)&lt;/li&gt;
-&lt;li&gt;個別化 (Individualization)&lt;/li&gt;
+&lt;li&gt;アレンジ (Arranger)&lt;ul&gt;
+&lt;li&gt;多数の要素について同時に考え、最適化できる&lt;/li&gt;
+&lt;li&gt;マルチタスク的なことが得意?&lt;/li&gt;
+&lt;li&gt;あまり自分にはない資質&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;運命思考 (Connectedness)&lt;ul&gt;
+&lt;li&gt;個々の人や物は独立していることはなく、全体が密接に関わっていると強く考えている&lt;/li&gt;
+&lt;li&gt;”一は全、全は一”を思い出した&lt;/li&gt;
+&lt;li&gt;日本語訳が若干微妙&lt;/li&gt;
+&lt;li&gt;これも自分にはあまりない資質&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;回復志向 (Restorative)&lt;ul&gt;
+&lt;li&gt;正しく機能しないもの、しなくなったものを正しく機能する状態にできる。そういうことに喜びを覚える&lt;/li&gt;
+&lt;li&gt;もし問題がこの世からなくなったら、この資質の持ち主は生きる気力を保てないんだろうか。まあ、そんなことはないから大丈夫か。&lt;/li&gt;
+&lt;li&gt;割と自分もこの資質に近いものを持ってるかもしれない&lt;ul&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;この人は自身の問題処理能力を非常に重視しているので、問題が解決されないと打ちのめされてしまうかもしれません。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;ここは完全に一致。上手く行く方法を思いつくとめちゃくちゃ嬉しいが、できないと打ちひしがれてしまう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;学習欲 (Learner)&lt;ul&gt;
+&lt;li&gt;何かを学ぶこと、その過程を重視していて、その成果を求めているわけではない&lt;/li&gt;
+&lt;li&gt;例として出てくる人たちはみな、なんでそんなことに取り組んでるの? と言われかねないことに一生懸命になっている。自覚もある&lt;/li&gt;
+&lt;li&gt;完全に自分&lt;ul&gt;
+&lt;li&gt;既存の知識だけでできることに興味はない&lt;/li&gt;
+&lt;li&gt;新しい知見を求めて深くのめり込む&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;顧客のひとりから最近、仕事のためにフランスのニースへ同行してほしいと頼まれました。だから私はその地域についての本を買って読み、インターネットで調べはじめました。どれも面白いですし、学ぶのは楽しいですが、仕事で行かないなら何もしなかったでしょう。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;自分も何かしらの外的要因に要請されて勉強し始めることが多い。そしていつのまにかのめり込んでいる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;学びたいという気持ちを行動に移しましょう。(中略) 毎年少なくともひとつは新しい科目や講座をとることを自らに課しましょう。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;ということで今年はTILを始めた&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;活発性 (Activator)&lt;ul&gt;
+&lt;li&gt;とにかく行動あるのみ&lt;/li&gt;
+&lt;li&gt;猪突猛進? というと語弊があるか&lt;/li&gt;
+&lt;li&gt;自分にはあまりない資質。だが、自分もときどき、あれこれ悩んでもやってみないとわからないことがある、やってみればいろいろわかる、とか言って行動することがあるから気持ちはわからないでもない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;共感性 (Empathy)&lt;ul&gt;
+&lt;li&gt;相手の心情を察することができる。それは1対1に限らず&lt;/li&gt;
+&lt;li&gt;あまり自分にはない。が、自分と近い資質を持った人の思考の傾向なら察することができる。そうでなくてもある程度想像できる。そのうえで何もしないけど&lt;ul&gt;
+&lt;li&gt;もしかして、自分には意外と共感性がある? 他の資質の妨げになるから自ら無視している上に、察したところで対人スキルが低いから適切な対応を取れないだけ?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;競争性 (Competition)&lt;ul&gt;
+&lt;li&gt;他人と競うこと、そして勝利することを重視&lt;/li&gt;
+&lt;li&gt;何かに挑戦し、それを達成することに喜びを感じる&lt;/li&gt;
+&lt;li&gt;自分も負けて気分は良くないが、そのために努力するようなことをするかというとそうでもない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;規律性 (Discipline)&lt;ul&gt;
+&lt;li&gt;何事もきちっとしている&lt;/li&gt;
+&lt;li&gt;スケジュールを細かいところまでブレイクダウンして考え、具体的な項目にまで落とし込む&lt;/li&gt;
+&lt;li&gt;自分にはあまりない資質&lt;/li&gt;
+&lt;li&gt;こんな人が回りにいたらどうだろうか。煩わしく感じるか、それとも頼るか。&lt;ul&gt;
+&lt;li&gt;じっくり検討中のことについて進捗があるかいちいち聞かれると煩わしいだろう&lt;/li&gt;
+&lt;li&gt;気乗りしないことについて急かされるのも嫌だと感じるだろう&lt;/li&gt;
+&lt;li&gt;ただ、チームとして何かに取り組むことを考えたとき、後はよろしくといって任せる相手としてはいいのではないだろうか&lt;/li&gt;
+&lt;li&gt;そうだ、この資質は購買や経理に向いていそう&lt;ul&gt;
+&lt;li&gt;まあ本当にそうなったら、めんどくさいルールを押し付けられそうだけど&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;原点思考 (Context)&lt;ul&gt;
+&lt;li&gt;過去を振り返る。もともと何だったのかを理解する&lt;/li&gt;
+&lt;li&gt;歴史に学ぶ&lt;/li&gt;
+&lt;li&gt;自分はどうだろう。どちらでもない気がする&lt;ul&gt;
+&lt;li&gt;ただ、誤ったやり方をしないために、初めて触れる物事についてはそういう歴史的な経緯についても知ろうとする傾向はある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;公平性 (Consistency)&lt;ul&gt;
+&lt;li&gt;平等を尊ぶ&lt;/li&gt;
+&lt;li&gt;自分にはあまりないかな&lt;/li&gt;
+&lt;li&gt;他人から下手に画一的に扱われると死んでしまう&lt;/li&gt;
+&lt;li&gt;ただ、自分が考えようとしていたこと、考えたことについて横取りされるとたまらなくイラッとする。これは公平性とは関係ないか?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;個別化 (Individualization)&lt;ul&gt;
+&lt;li&gt;個性を尊重する&lt;/li&gt;
+&lt;li&gt;自分はそれなりに他者に寛容なつもりなので、それなりにこの資質はあると思う。が、ひとりひとりのユニークな個性に興味を惹かれるかというとわからない。そもそも他人にそんなに興味がない&lt;/li&gt;
+&lt;li&gt;ただ、相手はきっとこういう考えかたをする人で、こういうことをしたいんだろうな、となんとなくわかるときはある&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;コミュニケーション (Communication)&lt;/li&gt;
 &lt;li&gt;最上思考 (Maximizer)&lt;/li&gt;
 &lt;li&gt;自我 (Significance)&lt;/li&gt;
@@ -252,4 +538,16 @@ GitHub pagesについてもいつかまとめてもいいかもしれない。
 それを踏まえて、日々を過ごしてみよう。&lt;/p&gt;
 &lt;p&gt;おれはこれを受けて、改めて自分が新しいことを学び、それを発展させて最高のものを生み出すことを望んでいることがわかった。
 ただ、そんな道のりも日々の学習からということで、それを促すためにTILを始めた。&lt;/p&gt;
-&lt;p&gt;もっとちゃんと書こう。&lt;/p&gt;</content></entry></feed>
+&lt;p&gt;もっとちゃんと書こう。&lt;/p&gt;
+&lt;h2&gt;印象的だった箇所&lt;/h2&gt;
+&lt;h3&gt;アメフト選手&lt;/h3&gt;
+&lt;p&gt;才能がないにもかかわらず、何年もの時間をノートルダム大の選手として活躍するために時間を費やし、できたことは最終学年の最後の試合の最後の1プレイに出場し、タックルしただけ。&lt;/p&gt;
+&lt;h3&gt;才能はあなたに見出されるのを待っている&lt;/h3&gt;
+&lt;p&gt;史上最高の将軍になれたはずの男はその機会に恵まれず、ただの労働者として一生を終えた。
+間違った方向に向かって人生を費やすと、こういうことになる。&lt;/p&gt;
+&lt;h2&gt;強みを活かす&lt;/h2&gt;
+&lt;p&gt;Destiny Planを連想した。&lt;/p&gt;
+&lt;h2&gt;関連リンク&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://heart-lab.jp/"&gt;HeArt lab Japan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content></entry></feed>
