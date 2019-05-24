@@ -202,8 +202,32 @@ Google先生に聞いてみた。&lt;/p&gt;
 &lt;p&gt;シャワー後、絆創膏を貼り直したが、血がにじむのは昼過ぎまで止まらなかった。
 翌日から風呂OKというのは、翌日夜の意味だったんだろうな。
 今日はおとなしくしていよう。&lt;/p&gt;
-&lt;h2&gt;3日目&lt;/h2&gt;
-&lt;p&gt;続く。&lt;/p&gt;</content><category term="health"></category></entry><entry><title>OpenSCAD</title><link href="https://tkyt.github.io/til/openscad.html" rel="alternate"></link><published>2019-03-30T22:38:09+09:00</published><updated>2019-03-30T22:38:09+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-30:/til/openscad.html</id><summary type="html"></summary><content type="html">&lt;p&gt;OpenSCADというものがあるらしい。
+&lt;h2&gt;3日目以降&lt;/h2&gt;
+&lt;p&gt;絆創膏ににじむ血の量は徐々に減っていった。
+かすり傷が徐々に快復するペースとほぼ同じ。
+10日後あたりからはもう絆創膏も不要なくらいに治ってきていた。
+面倒になったので、軟膏を塗ったり絆創膏を貼ったりするのをやめた。&lt;/p&gt;
+&lt;h1&gt;経過観察と検査結果&lt;/h1&gt;
+&lt;p&gt;ぴったり2週間後に病院に行った。
+事前の自己診断通り、軟性線維腫だそうだ。
+悪性ではないので、基本的には無視して良く、気になるのであれば皮膚科で切除するものらしい。
+つまり自分の今回の対応は正しかった。
+なぜこういう腫瘍ができるのか尋ねたが、あまり教えてくれなかった。
+この医者がわかっていないのか、世の中のみんながわかっていないのか。
+年寄りの首筋によくできるやつと同じと言っていた。&lt;/p&gt;
+&lt;p&gt;あと、傷跡を見ると術後に言っていたのだが、やってくれなかった。
+言えばやってくれたんだろうけど。
+違う先生が担当だったのだが、ちゃんと引き継ぎはされていたのだろうか。&lt;/p&gt;
+&lt;p&gt;今回の診察料は380円だった。
+料金が安すぎてカード支払い不可だった。&lt;/p&gt;
+&lt;h1&gt;終わりに&lt;/h1&gt;
+&lt;p&gt;長年の付き合いだったイボさんを断捨離した。
+座るときにいちいち意識せずとも済むようになって、やはり快適である。
+あとは、病院に行くのは怖くないということもわかった。
+自分にそういう習慣がなく、勝手に怖れていただけだが。&lt;/p&gt;
+&lt;h1&gt;余談&lt;/h1&gt;
+&lt;p&gt;帰宅して、早速絆創膏と軟膏を捨てた。
+最近断捨離を極めようと思っており、もういらないと判断したものや簡単に入手できるものはさっさと捨てることにしている。&lt;/p&gt;</content><category term="health"></category></entry><entry><title>OpenSCAD</title><link href="https://tkyt.github.io/til/openscad.html" rel="alternate"></link><published>2019-03-30T22:38:09+09:00</published><updated>2019-03-30T22:38:09+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-30:/til/openscad.html</id><summary type="html"></summary><content type="html">&lt;p&gt;OpenSCADというものがあるらしい。
 プログラミング感覚で3D CADを扱えるとか。
 ちょっと興味がある。&lt;/p&gt;
 &lt;h2&gt;ダウンロード&lt;/h2&gt;
