@@ -6,6 +6,8 @@ tags:
 
 dyson supersonicを買って大満足した話。
 
+
+
 ![dyson supersonic](https://www.dyson.co.jp/medialibrary/Group/ShopContent/Gallery%20Lightbox/Supersonic/Dyson_Supersonic_Gallery_White_Silver_Zoom.ashx?bc=ffffff)
 
 # ドライヤへの不満
