@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Baby learnings - esperanto</title><link href="https://tkyt.github.io/til/" rel="alternate"></link><link href="https://tkyt.github.io/til/feeds/esperanto.atom.xml" rel="self"></link><id>https://tkyt.github.io/til/</id><updated>2019-03-23T00:33:57+09:00</updated><subtitle>to stand on the shoulders of Giants</subtitle><entry><title>エスペラントとLinux</title><link href="https://tkyt.github.io/til/esuperantotolinux.html" rel="alternate"></link><published>2019-03-23T00:33:57+09:00</published><updated>2019-03-23T00:33:57+09:00</updated><author><name>tkyt</name></author><id>tag:tkyt.github.io,2019-03-23:/til/esuperantotolinux.html</id><summary type="html"></summary><content type="html">&lt;p&gt;エスペラントとLinuxの共通点について。&lt;/p&gt;
+&lt;h1&gt;エスペラントとは&lt;/h1&gt;
+&lt;p&gt;エスペラントは母語の異なる人同士がコミュニケーションを取るときに使用することを想定した人工言語である。
+世界中の母語に成り代わるのではなく、あくまで多言語の話者との意思疎通のための手段である。&lt;/p&gt;
+&lt;h1&gt;エスペラントと英語&lt;/h1&gt;
+&lt;p&gt;英語は国際交流におけるデファクトスタンダードと化している。&lt;/p&gt;
+&lt;h1&gt;Linux&lt;/h1&gt;
+&lt;p&gt;ご存知のとおり。&lt;/p&gt;
+&lt;h1&gt;LinuxとWindows&lt;/h1&gt;
+&lt;p&gt;WindowsはPCのOSのデファクトスタンダードと化している。&lt;/p&gt;</content><category term="esperanto"></category><category term="esperanto"></category><category term="linux"></category></entry></feed>

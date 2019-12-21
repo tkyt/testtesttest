@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Today I learned - Baby learnings</title>
+            <meta charset="utf-8" />
+            <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+            <link href="https://tkyt.github.io/til/theme/css/style.css" rel="stylesheet" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+                <link href="https://tkyt.github.io/til/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Baby learnings Full Atom Feed" />
+                <link href="https://tkyt.github.io/til/feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="Baby learnings Categories Atom Feed" />
+    </head>
+
+    <body id="index" class="archive">
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class=""><a href="https://tkyt.github.io/til">Home</a></li>
+                    <li><a href="https://tkyt.github.io/til/archives.html">Archives</a></li>
+                </ul>
+                <h1 class="text-muted">
+                    <a href="https://tkyt.github.io/til">Baby learnings</a>
+                </h1>
+                <h4 class="text-muted">
+                    to stand on the shoulders of Giants
+                </h4>
+            </div>
+    <section id="content" class="article content">
+        <header>
+            <h1 class="entry-title">
+                <a href="https://tkyt.github.io/til/today-i-learned.html">Today I learned</a>
+            </h1>
+            <div class="post-info text-muted">
+                
+                    Posted on 2019-03-23
+                    in <a href="https://tkyt.github.io/til/category/misc.html">misc</a>
+            </div>
+        </header>
+        <div class="entry-content">
+            <p>いわゆる<em>Today I learned</em>というのを始めた。
+始めた経緯や運用開始までの工程をまとめる。</p>
+<h2>きっかけ</h2>
+<h3>自分の日頃の学習の促進</h3>
+<p>いつものようになにか調べものをしていたときにこまめなoutputを推奨する記事を見つけた。
+単に知って終わりではなくoutputという形にまとめると、今までよりも深く理解しようとするらしい。</p>
+<h3>output力の向上</h3>
+<p>日頃からいろいろinputしている(つもり)だが、outputをほとんどしていなかった。
+得た知識を自分のために役立てたり、知識を得た事自体に満足したり、で終わっていた。
+そうすると自分が得たものは何であるかを人に説明する能力が身につかない。
+普段自分の考えを人に伝えるのが面倒というか苦手に感じていたが、このあたりに原因があるのではないかと考えた。</p>
+<h3>誰かの助けになりたい</h3>
+<p>いままでは自分が学んだことをローカルのメモに書き残していただけだった。
+しかもstatic site generatorを使って、きれいなHTMLに整形する環境まで整えていた。
+そこまでやったらもう公開しちゃってもいいんじゃないかと思った。
+もし困っている誰かの助けになるかもしれないし。
+いままでWeb上で公開されている情報に幾度となく救われているのだから、そろそろ恩返しをしたいと思ったのもある。</p>
+<h2>環境作り</h2>
+<p>GitHubにあるToday I learned (TIL)はmarkdownファイルを自分のTILリポジトリにcommitし、見たい人はGitHub上でそのファイルを開いて見ることになる。
+GitHubではmarkdownを整形して表示する機能があるので、それで十分。
+ただ、せっかく自分の学習の促進を目的にしているのだから、環境作りすら学習の一環にしてしまおうと思った。
+もちろんこういうところの敷居が高いと人によっては面倒に思うかもしれないし、維持が大変だと自分も嫌になると思う。
+その辺はしばらくやってみて、その後考えることにする。</p>
+<p>こういう形からというか、周辺からきちっと埋めていくところは、すごく自分らしいと感じる。</p>
+<h3>記事</h3>
+<p>markdownで書く。
+以前からメモのフォーマットとしてどれがいいかいろいろ試しており、AsciiDocを使っていたこともあったが、結局markdownに戻ってきた。
+その辺の経験もいつかまとめて公開したい。</p>
+<h3>サイトジェネレータ</h3>
+<p>markdownをHTMLに変換するstatic site generatorを選ぶ。
+ローカルのメモ書きの変換には
+<a href="https://www.mkdocs.org/">Mkdocs</a>
+を使用している。
+それと同じでは芸がないのと、そもそもあれはもっとカチッとしたドキュメント類をまとめるためのツール(ドキュメンテーション?)であり、散発的な情報を置くサイトを作るのに向いていない。
+そのあたりの違いはツールの違いなのか、それともテーマの違いなのか。
+後で調べてみよう。
+また自分の知識の曖昧さを見つけてしまった。</p>
+<p>熟考の末、
+<a href="https://docs.getpelican.com">Pelican</a>
+を使うことにした。
+pythonを使ったstatic site generatorで一番人気だったから。
+全然熟考してない。
+ちなみにMkdocsは2位で、この2つがpythonの2大static site generatorのようである。(2019.03.23現在)</p>
+<p><a href="https://www.staticgen.com/"><img alt="static site generator filterd by python" src="./images/ssg_python.png"></a></p>
+<p>いつか勉強という名目で、他言語で書かれたサイトジェネレータを使ってみてもいいかもしれない。</p>
+<h3>テーマ</h3>
+<p>まあ、後からいくらでも変えられるんだけど、最初にびしっと決めておくといいかな、と。
+<a href="http://www.pelicanthemes.com">ここ</a>
+でテーマのスクリーンショットを一望できる。</p>
+<p>ミニマリズム志向なので、あまりごちゃごちゃしているのは好きじゃない。
+また、リアルの自分と結びつけるつもりはないので、デフォルトで大量のSNSのボタンがあったり、自分の写真を乗っける前提のテーマを除外。
+単に使わなければいいといえばそのとおりなんだけど、選択肢が多すぎるので、こうやって理由をつけてラフに落としていくしかない。
+日本の大企業の新卒採用もこうしてフィルタリングしているんだろうか...。</p>
+<p>いろいろ迷ったが、
+<a href="https://github.com/getpelican/pelican-themes/tree/master/simple-bootstrap">simple-bootstrap</a>
+にした。
+ただしそのままではなく、一部を書き換えて使う。
+ホントはcebongも良かったんだけど、スマホ対応してなかったから断念。</p>
+<h3>タイトル</h3>
+<p>悩ましい。
+自分が気に入る名前がいいが、あまり命名センスに自信がないので、あまり凝った名前にはしないほうがいいだろう。
+このTILの目的を表す名前にしたい。</p>
+<p>一番の目的は、日々の小さな学習の積み重ねを促すこと。
+そう考えたときに真っ先に思いつくのは、<strong>Baby steps to Giant strides</strong>。
+マガジンのテニス漫画のベイビーステップのサブタイトルだか英語版のタイトル。
+この漫画は自分のお気に入りの一つ。
+これの魅力をまとめた記事もいずれ書きたい。</p>
+<p>で、さらに巨人といえば、<strong>Standing on the shoulders of Giants</strong>。
+ニュートンが自分の知見について表した言葉として有名。
+引用元はもっと昔の哲学者らしい。
+こうやって適切に引用できるくらい、今までの知見を深く理解することで初めて新しい発見ができるんだろう。</p>
+<p>この日々の学習も、巨人の肩に乗り続けて、いずれはニュートンのように(とまでは言わないが)、そういった素晴らしい知見を得るに至ることを最終目的にしている。
+ということでタイトルは、</p>
+<p><strong>Baby learnings -to stand on the shoulders of Giants-</strong></p>
+<p>にする。
+ちょっと恥ずかしいタイトルな気もするが、気に入ったからいいだろう。</p>
+<h3>公開場所</h3>
+<p>レンタルサーバを使うのが一般的なんだろうか。
+月額費用を払うほどの価値があるのか知らないが、そこまで維持費を払うつもりはない。
+自宅サーバもあるにはあるが、ただのローカル限定ファイルサーバであり、セキュリティを犠牲にして扱いやすくしている。</p>
+<p>GitHub pagesを使って公開することにする。
+やり方さえ知っていれば公開するのは簡単。
+しかもgitでバージョン管理できる。
+何の不満もない。
+それにサイトジェネレータを使うのがめんどくさくなっても、GitHubで一般的に行われている普通のTIL方式にすればいいだけ。</p>
+<h2>運用開始</h2>
+<p>3-4か月前にGitHub pagesを使ったブログサイトの試験的な運用をしていたので、導入はスムーズ。
+GitHub pagesについてもいつかまとめてもいいかもしれない。
+以前自分が調べたときは、いろいろ情報は出てきたものの、古い情報も多く、現在はもっと柔軟性のあるものになっていることが多かった。
+その辺を最新情報としてまとめてもいいけど、どうせこういうソフトウェアは日々進歩しているので、そういうことをまとめてもしょうがないかもしれない。</p>
+<h2>まとめ</h2>
+<p>ということで、ブログと言っていいのかわからないが、自分の知っていること、知ったことをまとめて公開するサイトをつくった。
+しばらくは今までローカルにまとめていただけのことを、他人が読めるレベルに校正してから、公開する作業をするだろう。
+それで終わらないように、新しいことも、積極的にこちらに置きたい。</p>
+        </div>
+        <footer class="post-info text-muted">
+        </footer>
+    </section>
+            <footer id="contentinfo" class="footer">
+                <nav class="pull-right bottom-nav">
+                    <a href="https://tkyt.github.io/til/feeds/all.atom.xml">RSS</a>
+                </nav>
+                <address id="about" class="vcard body">
+                    <a href="https://tkyt.github.io/til">Baby learnings</a> written by tkyt
+                </address>
+            </footer>
+        </div>
+    </body>
+</html>
