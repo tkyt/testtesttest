@@ -48,7 +48,7 @@ PATH = 'content'
 #    , '{date:%d}'
 #    , '{slug}.html'
 #)
-OUTPUT_PATH = 'docs/'
+OUTPUT_PATH = 'docs'
 YEAR_ARCHIVE_SAVE_AS = os.path.join(
     '{date:%Y}'
     , 'index.html'
